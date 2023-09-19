@@ -1,25 +1,26 @@
-# Título do Projeto
+Roadmap Desenvolvimento
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+Projeto 1 - HTML e CSS
 
-`SEMESTRE`
+1° Semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Desenvolvimento de um roadmap para pessoas que buscam ingressar na área de desenvolvimento e para pessoas que já atuam na área, simplificando o caminho do aprendizado, tornando-o mais acessível, organizado e eficiente para todos os
+interessados. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+Leandro Matsui
+Thais Bertini do Amaral
+Robert Luiz de S. Magnani
+Brendo William Rodrigues
+Matheus L. Antunes Holanda
+Raphael Diego de Oliveira L.
 
 ## Orientador
 
-* Nome completo do professor
+Prof. José Wilson da Costa
 
 # Documentação
 
