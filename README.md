@@ -47,3 +47,4 @@ Prof. José Wilson da Costa
 # Apresentação
 
 * <a href="apresentacao/README.md">Apresentação do Projeto</a>
+1 kg de carne pra cada um
