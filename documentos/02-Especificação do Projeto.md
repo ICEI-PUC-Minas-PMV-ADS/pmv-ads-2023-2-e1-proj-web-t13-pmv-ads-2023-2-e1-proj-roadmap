@@ -37,16 +37,31 @@
 
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
+Os requisitos do projeto foram divididos em duas categorias, requisitos funcionais e requisitos não funcionais.
+Requisitos funcionais são problemas ou necessidades que devem ser atendidos pela aplicação por meio de suas funções.
+Requisitos não funcionais são aqueles que viabilizam a aplicação ser entregue, são necessários para sua continuidade(manutenção) e especificam a melhor maneira de resolver o problema, geralmente relacionados com a parte de segurança, desempenho, usabilidade e acessibilidade.
+Os requisitos foram priorizados em três níveis, ALTA, MÉDIA, BAIXA. Sendo os requisitos de prioridade mais alta, essenciais para a solução do principal problema que a aplicação se propõe a resolver e a de menor prioridade, refinamentos que visam oferecer uma melhor experiência para o usuário.
+
 
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
+|   ID   |                                                      Descrição                                                      | Prioridade |
+|:------:|:-------------------------------------------------------------------------------------------------------------------:|:----------:|
+| RF- 01 | A aplicação deve exibir uma lista de tecnologias para o usuário escolher sobre qual ele quer visualizar o roadmap.  | ALTA       |
+| RF- 02 | A aplicação deve exibir de acordo com a tecnologia selecionada pelo usuário, um roadmap com os conteúdos de estudos | ALTA       |
+| RF- 03 | A aplicação deve permitir realizar pesquisa por tecnologia                                                          | MÉDIA      |
+| RF- 04 | A aplicação deve redirecionar cada tópico para um material externo                                                  | MÉDIA      |
+| RF-05  | A aplicação deve permitir realizar o cadastro de usuários                                                           | MÉDIA      |
+| RF-06  | A aplicação deve permitir a realização de login                                                                     | MÉDIA      |
+| RF-07  | A aplicação deve permitir a criação de perfis de estudo vinculados com a conta                                      | MÉDIA      |
+| RF-08  | A aplicação deve possuir dois perfis de usuários. Administradores e usuários comuns                                 | BAIXA      |
+| RF-09  | A aplicação deve possuir um painel administrativo para gerenciamento/atualização do material                        | BAIXA      |
+| RF-10  | A aplicação deve permitir selecionar no roadmap quais tópicos já foram estudados                                    | MÉDIA      |
+| RF-11  | A aplicação deve exibir a porcentagem de cada roadmap                                                               | MÉDIA      |
+| RF-12  | A aplicação deve permitir avaliar cada roadmap                                                                      | BAIXA      |
+| RF-13  | A aplicação deve permitir realizar comentários em cada roadmap para discutir com outros usuários                    | BAIXA      |
+| RF-14  | A aplicação deve permitir o envio de feedback ao final de cada roadmap                                              | BAIXA      |
 
-|ID    | Descrição                | Prioridade |
-|-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
 
 **Prioridade: Alta / Média / Baixa. 
 
