@@ -67,12 +67,14 @@ Os requisitos foram priorizados em três níveis, ALTA, MÉDIA, BAIXA. Sendo os 
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
-
-|ID      | Descrição               |Prioridade |
-|--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+|   ID   |                                       Descrição                                      | Prioridade |
+|:------:|:------------------------------------------------------------------------------------:|:----------:|
+| RNF-01 | Acessibilidade e Design Responsivo                                                   | ALTA       |
+| RNF-02 | A aplicação deve exibir o roadmap de forma limpa e clara                             | MÉDIA      |
+| RNF-03 | A aplicação deve exibir os perfis de estudos salvos em formato de cartões            | MÉDIA      |
+| RNF-04 | A aplicação deve estar disponível para acesso à internet                             | ALTA       |
+| RNF-05 | A aplicação deve ser compatível com os principais navegadores de internet do mercado | ALTA       |
+| RNF-06 | A aplicação deve trabalhar de forma totalmente client-side                           | ALTA       |
 
 **Prioridade: Alta / Média / Baixa. 
 
