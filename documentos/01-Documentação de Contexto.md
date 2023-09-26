@@ -28,12 +28,6 @@ Este link pode ajudar a equipe a formular a justificativa: [Como montar a justif
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
-
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+Nosso público-alvo é composto por uma comunidade diversificada de profissionais e estudantes atuando no campo da tecnologia e desenvolvimento. Cada membro desse público possui objetivos únicos e enfrenta desafios específicos em sua busca por crescimento, aprendizado e sucesso em suas respectivas áreas de atuação. 
+Eles estão em busca de uma plataforma ou serviço que possa atender a essas necessidades de maneira eficaz, desempenhando um papel fundamental ao orientá-los em sua jornada de desenvolvimento e aprendizado. Nossa missão é fornecer recursos, orientações e apoio para capacitar esses indivíduos a atingirem seus objetivos profissionais e educacionais com confiança e eficiência.
 
