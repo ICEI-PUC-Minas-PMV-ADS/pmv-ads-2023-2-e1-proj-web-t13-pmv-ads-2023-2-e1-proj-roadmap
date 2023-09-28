@@ -2,41 +2,40 @@
 
 ## Perfis de Usuários
 
-
 Perfil 1
-Descrição: 	Lucas, o Estudante Iniciante de Desenvolvimento Front-End:
-Objetivo: 	É um estudante que deseja ingressar na área de desenvolvimento Front-End ou descobrir se tem afinidade com essa área.
-Desafios:	Ele precisa de orientações claras sobre como começar seus estudos e se familiarizar com os fundamentos do Front-End.
+Descrição:   	Lucas, o Estudante Iniciante de Desenvolvimento Front-End:
+Objetivo:   	É um estudante que deseja ingressar na área de desenvolvimento Front-End ou descobrir se tem afinidade com essa área.
+Desafios:   	Ele precisa de orientações claras sobre como começar seus estudos e se familiarizar com os fundamentos do Front-End.
 Expectativas:	Lucas busca uma plataforma que forneça um roteiro introdutório, com recursos de aprendizado recomendados, para ajudá-lo a dar os primeiros passos na programação Front-End.
 
 Perfil 2
-Descrição: 	Ana, a Estudante de Tecnologia em Busca de Mentoria
-Objetivo: 	Ana é uma estudante de tecnologia que procura orientação para evitar fontes de informação duvidosas e otimizar seu tempo de pesquisa.
-Desafios:	Ela sente dificuldade em distinguir fontes confiáveis de informações, o que pode prejudicar seu progresso acadêmico.
+Descrição:   	Ana, a Estudante de Tecnologia em Busca de Mentoria
+Objetivo:   	Ana é uma estudante de tecnologia que procura orientação para evitar fontes de informação duvidosas e otimizar seu tempo de pesquisa.
+Desafios:	    Ela sente dificuldade em distinguir fontes confiáveis de informações, o que pode prejudicar seu progresso acadêmico.
 Expectativas:	Ana deseja acesso a uma plataforma ou mentor que possa guiá-la em suas pesquisas e fornecer direcionamento para recursos confiáveis e relevantes.
 
 Perfil 3
-Descrição: 	João, Profissional Front-End Busca de Aprendizado em ReactJS
-Objetivo: 	João é um desenvolvedor Front-End que deseja aprender ReactJS para enriquecer seu portfólio.
-Desafios:	Ele precisa de recursos específicos e orientações práticas para adquirir habilidades em ReactJS.
+Descrição:   	João, Profissional Front-End Busca de Aprendizado em ReactJS
+Objetivo: 	    João é um desenvolvedor Front-End que deseja aprender ReactJS para enriquecer seu portfólio.
+Desafios:	    Ele precisa de recursos específicos e orientações práticas para adquirir habilidades em ReactJS.
 Expectativas:	João está interessado em uma plataforma que ofereça cursos e tutoriais de alta qualidade, focados em ReactJS, para ajudá-lo a atingir suas metas de desenvolvimento profissional.
 
 Perfil 4
-Descrição: 	Maria, a Dev Jr. em Busca de Eficiência em Banco de Dados:
-Objetivo: 	Maria é uma desenvolvedora Junior que busca orientações sobre quais frameworks ou linguagens são mais eficientes para otimizar o uso de memória em bancos de dados.
-Desafios:	Ela deseja criar sistemas mais leves e eficientes, mas não sabe por onde começar.
+Descrição:    	Maria, a Dev Jr. em Busca de Eficiência em Banco de Dados:
+Objetivo:    	Maria é uma desenvolvedora Junior que busca orientações sobre quais frameworks ou linguagens são mais eficientes para otimizar o uso de memória em bancos de dados.
+Desafios:       Ela deseja criar sistemas mais leves e eficientes, mas não sabe por onde começar.
 Expectativas:	Maria busca uma plataforma que forneça insights e orientações sobre as melhores práticas e tecnologias para desenvolver sistemas de banco de dados mais eficientes.
 
 Perfil 5
-Descrição: 	Pedro, Programador Estagiário Busca de Orientações de Frameworks
-Objetivo: 	Pedro é um programador estagiário que deseja orientações sobre a escolha dos melhores frameworks para os projetos da empresa.
-Desafios:	Ele precisa tomar decisões informadas sobre quais frameworks adotar para fornecer soluções ágeis.
+Descrição:   	Pedro, Programador Estagiário Busca de Orientações de Frameworks
+Objetivo:   	Pedro é um programador estagiário que deseja orientações sobre a escolha dos melhores frameworks para os projetos da empresa.
+Desafios:	    Ele precisa tomar decisões informadas sobre quais frameworks adotar para fornecer soluções ágeis.
 Expectativas:	Pedro busca uma fonte confiável de informações que possa ajudá-lo a selecionar os frameworks mais adequados para atender às necessidades da empresa.
 
 Perfil 6
-Descrição: 	Carlos, o Estudante de ADS em Busca de Especialização
-Objetivo: 	Carlos é um estudante de Análise e Desenvolvimento de Sistemas que deseja estudar uma área de especialização em paralelo.
-Desafios:	Ele precisa de orientações sobre como equilibrar seus estudos regulares com a especialização desejada.
+Descrição:   	Carlos, o Estudante de ADS em Busca de Especialização
+Objetivo:    	Carlos é um estudante de Análise e Desenvolvimento de Sistemas que deseja estudar uma área de especialização em paralelo.
+Desafios:	    Ele precisa de orientações sobre como equilibrar seus estudos regulares com a especialização desejada.
 Expectativas:	Carlos busca uma plataforma que ofereça recursos e orientações para ajudá-lo a se preparar melhor e se manter atualizado para entrar no mercado de trabalho de forma mais competitiva.
 
 
@@ -59,17 +58,13 @@ Expectativas:	Carlos busca uma plataforma que ofereça recursos e orientações 
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
-
-|EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
-|--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+|EU COMO... `QUEM`                         | QUERO/PRECISO ... `O QUE`                                                       |PARA ... `PORQUE`                                                                        |
+|------------------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+|Eu como estudante na área de dev----------|Quero ter uma orientação de como devo prosseguir nos estudos---------------------|Para começar na área de desenvolvimento Front End ou Descobrir se gosto ou não da área.--|
+|Eu como Programador estagiário------------|Quero poder saber quais são as linguagens mais utilizadas no mercado atualmente--|Para poder saber em qual linguagem desenvolver meus projetos e que sejam as mais atuais.-|
+|Eu como estudante de ADS------------------|Quero estudar em paralelo uma área de especialização-----------------------------|Para entrar no mercado melhor preparado.-------------------------------------------------|
+|Eu como profissional Front-end------------|Quero aprender sobre ReactJS-----------------------------------------------------|Para aumentar meu portifólio.------------------------------------------------------------|
+|Eu como estudante na área de programação--|Quero saber onde começar meus estudos de uma maneira organizada------------------|Para não perder tempocom coisas inúteis ou que não fazem parte do escopo de trabalho.----|
 
 ## Requisitos do Projeto
 
