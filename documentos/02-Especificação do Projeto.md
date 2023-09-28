@@ -4,7 +4,7 @@
 
 Perfil 1
 Descrição:   	Lucas, o Estudante Iniciante de Desenvolvimento Front-End:
-Objetivo:   	É um estudante que deseja ingressar na área de desenvolvimento Front-End ou descobrir se tem afinidade com essa área.
+Objetivo:   	É um estudante que deseja ingressar na área de desenvolvimento Front-End ou descobrir se tem afinidade com essa área..
 Desafios:   	Ele precisa de orientações claras sobre como começar seus estudos e se familiarizar com os fundamentos do Front-End.
 Expectativas:	Lucas busca uma plataforma que forneça um roteiro introdutório, com recursos de aprendizado recomendados, para ajudá-lo a dar os primeiros passos na programação Front-End.
 
