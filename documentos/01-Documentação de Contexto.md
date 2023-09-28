@@ -2,29 +2,29 @@
 
 A área de desenvolvimento de softwares é um campo dinâmico e em constante evolução, onde a busca por conhecimento é essencial para acompanhar as inovações e tecnológicas. No entanto, muitos estudantes e profissionais que se aventuram nesse universo se deparam com um desafio significativo: a dificuldade em estabelecer uma linha de estudos coerente e eficaz. Isso ocorre devido à exacerbada quantidade de materiais disponíveis, que frequentemente divergentes em conteúdo e abordagem, criando um cenário complexo para quem busca aprimorar suas habilidades.
 
-
-
 Portanto, é fundamental encontrar estratégias para navegar com sucesso nesse vasto oceano de informações, a fim de construir uma plataforma sólida de conhecimento e evitar essas possíveis “armadilhas” que podem atrapalhar o progresso na carreira de um desenvolvedor de sistemas.
 
-## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
-
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Esta aplicação terá como principal objetivo guiar os usuários em sua jornada de aprendizado, fornecendo uma estrutura clara e personalizada para o desenvolvimento de suas habilidades. Para isso, a aplicação oferecerá as seguintes funcionalidades:
+
+Mapeamento de Áreas de Conhecimento: A aplicação irá categorizar as áreas de conhecimento relacionadas ao desenvolvimento, como FrontEnd, BackEnd, entre outras. Cada área será cuidadosamente elaborada, oferecendo uma visão geral e detalhada das habilidades necessárias.
+
+Trilhas de Aprendizado Personalizadas: Com base nas metas e interesses do usuário, a aplicação irá criar trilhas de aprendizado personalizadas. Se o usuário for iniciante, ele terá acesso a um roteiro introdutório, enquanto aqueles com experiência poderão escolher tópicos específicos para aprimorar suas habilidades.
+
+Etapas e Recursos Recomendados: A aplicação irá desmembrar cada trilha de aprendizado em etapas claras e ordenadas, indicando os passos a serem seguidos. Além disso, fornecerá links diretos para sites, plataformas e recursos relevantes que podem auxiliar o usuário em cada etapa do processo de aprendizado.
+
+Roadmap Flexível: Reconhecendo que cada pessoa tem ritmos de aprendizado diferentes, a aplicação permitirá que os usuários avancem ou revisitem etapas de acordo com seu próprio progresso e necessidades individuais.
+
+Apoio para Iniciantes e Profissionais Experientes: A aplicação será versátil, atendendo tanto a pessoas que estão dando os primeiros passos na programação quanto a profissionais experientes que desejam aprimorar suas habilidades ou explorar novos campos dentro do desenvolvimento de sistemas.
+
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
-
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Com a proposta desenvolvida para desenvolver essa aplicação web, estamos comprometidos em simplificar o caminho do aprendizado na área de desenvolvimento de sistemas, tornando-o mais acessível, organizado e eficiente para todos os interessados. 
+Acreditamos que proporcionar uma estrutura clara e orientações precisas ajudará os estudantes a alcançar seus objetivos de aprendizado de forma mais rápida e eficaz.
 
 ## Público-Alvo
 
