@@ -4,8 +4,6 @@ A área de desenvolvimento de softwares é um campo dinâmico e em constante evo
 
 Portanto, é fundamental encontrar estratégias para navegar com sucesso nesse vasto oceano de informações, a fim de construir uma plataforma sólida de conhecimento e evitar essas possíveis “armadilhas” que podem atrapalhar o progresso na carreira de um desenvolvedor de sistemas.
 
-
-
 ## Objetivos
 
 Esta aplicação terá como principal objetivo guiar os usuários em sua jornada de aprendizado, fornecendo uma estrutura clara e personalizada para o desenvolvimento de suas habilidades. Para isso, a aplicação oferecerá as seguintes funcionalidades:
@@ -29,5 +27,4 @@ Acreditamos que proporcionar uma estrutura clara e orientações precisas ajudar
 ## Público-Alvo
 
 Nosso público-alvo é composto por uma comunidade diversificada de profissionais e estudantes atuando no campo da tecnologia e desenvolvimento. Cada membro desse público possui objetivos únicos e enfrenta desafios específicos em sua busca por crescimento, aprendizado e sucesso em suas respectivas áreas de atuação. 
-Eles estão em busca de uma plataforma ou serviço que possa atender a essas necessidades de maneira eficaz, desempenhando um papel fundamental ao orientá-los em sua jornada de desenvolvimento e aprendizado. Nossa missão é fornecer recursos, orientações e apoio para capacitar esses indivíduos a atingirem seus objetivos profissionais e educacionais com confiança e eficiência.
-
+Eles estão em busca de uma plataforma ou serviço que possa atender a essas necessidades de maneira eficaz, desempenhando um papel fundamental ao orientá-los em sua jornada de desenvolvimento e aprendizado. Nossa missão é fornecer recursos, orientações e apoio para capacitar esses indivíduos a atingirem seus objetivos profissionais e educacionais com confiança e eficiência;
