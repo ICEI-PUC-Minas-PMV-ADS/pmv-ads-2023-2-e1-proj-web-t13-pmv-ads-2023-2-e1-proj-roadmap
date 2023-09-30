@@ -4,6 +4,9 @@ A área de desenvolvimento de softwares é um campo dinâmico e em constante evo
 
 Portanto, é fundamental encontrar estratégias para navegar com sucesso nesse vasto oceano de informações, a fim de construir uma plataforma sólida de conhecimento e evitar essas possíveis “armadilhas” que podem atrapalhar o progresso na carreira de um desenvolvedor de sistemas..
 
+## Problema
+O problema que esse projeto se propõe solucionar é a dificuldade que estudantes e profissionais da área de desenvolvimento de software encontram em se especializar em determinada tecnologia de forma autodidata
+
 ## Objetivos
 
 Esta aplicação terá como principal objetivo guiar os usuários em sua jornada de aprendizado, fornecendo uma estrutura clara e personalizada para o desenvolvimento de suas habilidades. Para isso, a aplicação oferecerá as seguintes funcionalidades:
