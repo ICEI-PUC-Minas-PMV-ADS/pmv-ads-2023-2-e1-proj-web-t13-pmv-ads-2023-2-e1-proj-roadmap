@@ -45,18 +45,19 @@ Expectativas:	Carlos busca uma plataforma que ofereça recursos e orientações 
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2"> Lucas,o Estudante Iniciante de Desenvolvimento Front-End </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">É um estudante que deseja ingressar na área de desenvolvimento Front-End ou descobrir se tem afinidade com essa área.. Desafios: Ele precisa de orientações claras sobre como começar seus estudos e se familiarizar com os fundamentos do Front-End.</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Lucas busca uma plataforma que forneça um roteiro introdutório, com recursos de aprendizado recomendados, para ajudá-lo a dar os primeiros passos na programação Front-End.</td>
 </tr>
 </tbody>
 </table>
+
 
 
 ## Histórias de Usuários
