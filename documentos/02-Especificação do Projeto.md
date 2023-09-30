@@ -58,6 +58,10 @@ Expectativas:	Carlos busca uma plataforma que ofereça recursos e orientações 
 
 ## Histórias de Usuários
 
+Segundo artigo publicado no site Awari: 
+
+A história de usuário desempenha um papel fundamental na Sprint dentro do framework Scrum. Durante a Sprint, que é um período de tempo definido para a realização do trabalho, as histórias de usuário são traduzidas em tarefas específicas e são implementadas pela equipe de desenvolvimento. Essa abordagem orientada por histórias de usuário traz benefícios significativos para o processo de desenvolvimento e impulsiona a entrega de valor. (AWARI, 2023)
+
 |EU COMO... `QUEM`                         | QUERO/PRECISO ... `O QUE`                                                       |PARA ... `PORQUE`                                                                        |
 |------------------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 |Eu como estudante na área de dev----------|Quero ter uma orientação de como devo prosseguir nos estudos---------------------|Para começar na área de desenvolvimento Front End ou Descobrir se gosto ou não da área.--|
