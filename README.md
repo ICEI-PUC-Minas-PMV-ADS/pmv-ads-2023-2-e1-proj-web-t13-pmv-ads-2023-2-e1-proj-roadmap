@@ -1,26 +1,26 @@
-Roadmap Desenvolvimento
+`Roadmap Dev`
 
-Análise e Desenvolvimento de Sistemas
+`Análise e Desenvolvimento de Sistemas`
 
-Projeto 1 - HTML e CSS
+`Projeto 1 - HTML e CSS`
 
-1° Semestre
+`1º SEMESTRE`
 
 Desenvolvimento de um roadmap para pessoas que buscam ingressar na área de desenvolvimento e para pessoas que já atuam na área, simplificando o caminho do aprendizado, tornando-o mais acessível, organizado e eficiente para todos os
 interessados. 
 
 ## Integrantes
 
-Leandro Matsui
-Thais Bertini do Amaral
-Robert Luiz de S. Magnani
-Brendo William Rodrigues
-Matheus L. Antunes Holanda
-Raphael Diego de Oliveira L.
+* Leandro Matsui
+* Thais Bertini do Amaral
+* Robert Luiz de S. Magnani
+* Brendo William Rodrigues
+* Matheus L. Antunes Holanda
+* Raphael Diego de Oliveira L.
 
 ## Orientador
 
-Prof. José Wilson da Costa
+* Prof. José Wilson da Costa
 
 # Documentação
 
