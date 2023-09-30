@@ -4,8 +4,8 @@ A área de desenvolvimento de softwares é um campo dinâmico e em constante evo
 
 Portanto, é fundamental encontrar estratégias para navegar com sucesso nesse vasto oceano de informações, a fim de construir uma plataforma sólida de conhecimento e evitar essas possíveis “armadilhas” que podem atrapalhar o progresso na carreira de um desenvolvedor de sistemas.
 
-	Para Kipp e Rauhut (2013)” [...] um roadmap é um instrumento de planejamento que facilita a coordenação entre diferentes atores e setores envolvidos em um processo de mudança.”
-
+Para Kipp e Rauhut (2013)” [...] um roadmap é um instrumento de planejamento que facilita a coordenação entre diferentes atores e setores envolvidos em um processo de mudança.”
+	
 ## Problema
 O problema que esse projeto se propõe solucionar é a dificuldade que estudantes e profissionais da área de desenvolvimento de software encontram em se especializar em determinada tecnologia de forma autodidata
 
