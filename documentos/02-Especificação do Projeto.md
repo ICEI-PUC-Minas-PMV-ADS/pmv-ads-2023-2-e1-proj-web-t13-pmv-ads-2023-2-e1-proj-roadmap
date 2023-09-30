@@ -2,6 +2,9 @@
 
 ## Perfis de Usuários
 
+Conforme o artigo publicado pelo site Forbes:
+Foram feitas mais de 14 mil entrevistas com estudantes e profissionais em transição de carreira ou em busca de um novo emprego em 13 países, incluindo o Brasil. “O estudo mostra que ainda existe uma falta de conhecimento das pessoas sobre como adquirir habilidades em STEM (sigla em inglês para as funções relacionadas à ciência, tecnologia, engenharia e matemática) e seguir uma carreira nessa área”, afirma Victor Piotto, gerente de responsabilidade social corporativa da IBM Brasil. (FORBES,2023)
+
 Perfil 1
 Descrição:   	Lucas, o Estudante Iniciante de Desenvolvimento Front-End:
 Objetivo:   	É um estudante que deseja ingressar na área de desenvolvimento Front-End ou descobrir se tem afinidade com essa área..
