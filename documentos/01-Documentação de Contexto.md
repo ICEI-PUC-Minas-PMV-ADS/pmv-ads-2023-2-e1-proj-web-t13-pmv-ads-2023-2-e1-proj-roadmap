@@ -28,3 +28,7 @@ Acreditamos que proporcionar uma estrutura clara e orientações precisas ajudar
 
 Nosso público-alvo é composto por uma comunidade diversificada de profissionais e estudantes atuando no campo da tecnologia e desenvolvimento. Cada membro desse público possui objetivos únicos e enfrenta desafios específicos em sua busca por crescimento, aprendizado e sucesso em suas respectivas áreas de atuação. 
 Eles estão em busca de uma plataforma ou serviço que possa atender a essas necessidades de maneira eficaz, desempenhando um papel fundamental ao orientá-los em sua jornada de desenvolvimento e aprendizado. Nossa missão é fornecer recursos, orientações e apoio para capacitar esses indivíduos a atingirem seus objetivos profissionais e educacionais com confiança e eficiência;
+
+Segundo artigo publicado no site Alura pela autora Gabriela L. Silva:
+
+” […] só saberemos como moldar bem o que está por trás das telas se conhecermos quem estará sentado na frente delas! Isto é, se conhecermos quem é o público do projeto que estamos desenvolvendo. “
