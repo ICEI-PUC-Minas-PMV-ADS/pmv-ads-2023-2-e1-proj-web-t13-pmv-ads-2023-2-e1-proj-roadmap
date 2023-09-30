@@ -11,15 +11,16 @@ A equipe optou por trabalhar com Processos Ágeis, adotando o Scrum como metodol
 
 Desta forma, a equipe está organizada da seguinte maneira:
 
-- Scrum Master: Thais Bertini do Amaral
-- Product Owner: Leandro Hideki Matsui
-- Equipe de Desenvolvimento: 
+`Scrum Master: Thais Bertini do Amaral`
+`Product Owner: Leandro Hideki Matsui`
+
+* Equipe de Desenvolvimento: 
   - Brendo William Rodrigues; 
   - Leonardo Hideki Matsui;
   - Raphael Diego de Oliveira L.;
   - Robert Luiz de S. Magnani;
   - Thais Bertini do Amaral.
-- Equipe de Design: 
+* Equipe de Design: 
   - Brendo William Rodrigues; 
   - Raphael Diego de Oliveira L.
 ### Processo
