@@ -67,11 +67,11 @@ A história de usuário desempenha um papel fundamental na Sprint dentro do fram
 
 |EU COMO... `QUEM`                         | QUERO/PRECISO ... `O QUE`                                                       |PARA ... `PORQUE`                                                                        |
 |------------------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-|Eu como estudante na área de dev----------|Quero ter uma orientação de como devo prosseguir nos estudos---------------------|Para começar na área de desenvolvimento Front End ou Descobrir se gosto ou não da área.--|
-|Eu como Programador estagiário------------|Quero poder saber quais são as linguagens mais utilizadas no mercado atualmente--|Para poder saber em qual linguagem desenvolver meus projetos e que sejam as mais atuais.-|
-|Eu como estudante de ADS------------------|Quero estudar em paralelo uma área de especialização-----------------------------|Para entrar no mercado melhor preparado.-------------------------------------------------|
-|Eu como profissional Front-end------------|Quero aprender sobre ReactJS-----------------------------------------------------|Para aumentar meu portifólio.------------------------------------------------------------|
-|Eu como estudante na área de programação--|Quero saber onde começar meus estudos de uma maneira organizada------------------|Para não perder tempocom coisas inúteis ou que não fazem parte do escopo de trabalho.----|
+|Eu como estudante na área de dev |Quero ter uma orientação de como devo prosseguir nos estudos |Para começar na área de desenvolvimento Front End ou Descobrir se gosto ou não da área.|
+|Eu como Programador estagiário |Quero poder saber quais são as linguagens mais utilizadas no mercado atualmente |Para poder saber em qual linguagem desenvolver meus projetos e que sejam as mais atuais. |
+|Eu como estudante de ADS |Quero estudar em paralelo uma área de especialização |Para entrar no mercado melhor preparado. |
+|Eu como profissional Front-end |Quero aprender sobre ReactJS |Para aumentar meu portifólio. |
+|Eu como estudante na área de programação |Quero saber onde começar meus estudos de uma maneira organizada |Para não perder tempocom coisas inúteis ou que não fazem parte do escopo de trabalho. |
 
 ## Requisitos do Projeto
 
