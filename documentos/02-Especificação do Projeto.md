@@ -59,6 +59,85 @@ Expectativas:	Carlos busca uma plataforma que ofereça recursos e orientações 
 <td><b>Expectativas:</b></td>
 <td>Lucas busca uma plataforma que forneça um roteiro introdutório, com recursos de aprendizado recomendados, para ajudá-lo a dar os primeiros passos na programação Front-End. </td>
 </tr>
+
+<tr align=center>
+<th colspan="2"> Ana, a Estudante de Tecnologia em Busca de Mentoria </th>
+</tr>
+<tr>
+<td width="150px"><b>Objetivo</b></td>
+<td width="600px">Ana é uma estudante de tecnologia que procura orientação para evitar fontes de informação duvidosas e otimizar seu tempo de pesquisa..</td>
+</tr>
+<tr>
+<td><b>Desafios:</b></td>
+<td>Ela sente dificuldade em distinguir fontes confiáveis de informações, o que pode prejudicar seu progresso acadêmico.</td>
+</tr>
+<tr>
+<td><b>Expectativas:</b></td>
+<td>Ana deseja acesso a uma plataforma ou mentor que possa guiá-la em suas pesquisas e fornecer direcionamento para recursos confiáveis e relevantes. </td>
+</tr>
+
+<tr align=center>
+<th colspan="2"> João, Profissional Front-End Busca de Aprendizado em ReactJS </th>
+</tr>
+<tr>
+<td width="150px"><b>Objetivo</b></td>
+<td width="600px">João é um desenvolvedor Front-End que deseja aprender ReactJS para enriquecer seu portfólio.</td>
+</tr>
+<tr>
+<td><b>Desafios:</b></td>
+<td>Ele precisa de recursos específicos e orientações práticas para adquirir habilidades em ReactJS.</td>
+</tr>
+<tr>
+<td><b>Expectativas:</b></td>
+<td>João está interessado em uma plataforma que ofereça cursos e tutoriais de alta qualidade, focados em ReactJS, para ajudá-lo a atingir suas metas de desenvolvimento profissional. </td>
+</tr>
+
+<tr align=center>
+<th colspan="2"> Maria, a Dev Jr. em Busca de Eficiência em Banco de Dados </th>
+</tr>
+<tr>
+<td width="150px"><b>Objetivo</b></td>
+<td width="600px">Maria é uma desenvolvedora Junior que busca orientações sobre quais frameworks ou linguagens são mais eficientes para otimizar o uso de memória em bancos de dados.</td>
+</tr>
+<tr>
+<td><b>Desafios:</b></td>
+<td>Ela deseja criar sistemas mais leves e eficientes, mas não sabe por onde começar.</td>
+</tr>
+<tr>
+<td><b>Expectativas:</b></td>
+<td>Maria busca uma plataforma que forneça insights e orientações sobre as melhores práticas e tecnologias para desenvolver sistemas de banco de dados mais eficientes. </td>
+</tr>
+
+<tr align=center>
+<th colspan="2"> Pedro, Programador Estagiário Busca de Orientações de Frameworks </th>
+</tr>
+<tr>
+<td width="150px"><b>Objetivo</b></td>
+<td width="600px">Pedro é um programador estagiário que deseja orientações sobre a escolha dos melhores frameworks para os projetos da empresa.</td>
+</tr>
+<tr>
+<td><b>Desafios:</b></td>
+<td>Ele precisa tomar decisões informadas sobre quais frameworks adotar para fornecer soluções ágeis.</td>
+</tr>
+<tr>
+<td><b>Expectativas:</b></td>
+<td>Pedro busca uma fonte confiável de informações que possa ajudá-lo a selecionar os frameworks mais adequados para atender às necessidades da empresa. </td>
+
+<tr align=center>
+<th colspan="2"> Carlos, o Estudante de ADS em Busca de Especialização </th>
+</tr>
+<tr>
+<td width="150px"><b>Objetivo</b></td>
+<td width="600px">Carlos é um estudante de Análise e Desenvolvimento de Sistemas que deseja estudar uma área de especialização em paralelo.</td>
+</tr>
+<tr>
+<td><b>Desafios:</b></td>
+<td>Ele precisa de orientações sobre como equilibrar seus estudos regulares com a especialização desejada.</td>
+</tr>
+<tr>
+<td><b>Expectativas:</b></td>
+<td>Carlos busca uma plataforma que ofereça recursos e orientações para ajudá-lo a se preparar melhor e se manter atualizado para entrar no mercado de trabalho de forma mais competitiva. </td>
+</tr>
 </tbody>
 </table>
 
