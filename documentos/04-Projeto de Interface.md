@@ -3,7 +3,7 @@
 
 ## User Flow
 
-A figura 1 ilustra o fluxo de interação do usuário pelas telas do sistema. Cada tela deste fluxo é explicada na seção de Protótipo de baixa fidelidade que vem a seguir. Para visualizar o protótipo interativo, acesse https://www.figma.com/file/eIdsKBnbbFkEr7vQzYfppQ/Prototipo-Roadmap?type=design&node-id=0%3A1&mode=design&t=tD45koeObYR6m1qm-1
+A figura 1 ilustra o fluxo de interação do usuário pelas telas do sistema. Cada tela deste fluxo é explicada na seção de Protótipo de baixa fidelidade que vem a seguir. Para visualizar o protótipo interativo, acesse: https://www.figma.com/file/SrE16rawYQknzhT7bDfCkl/Wireframe---Thais?type=design&node-id=0-1&mode=design&t=QIud9cT53TDBMX4K-0
 
  ![Alt text](<Prototipo Roadmap.png>)
  figura 1
