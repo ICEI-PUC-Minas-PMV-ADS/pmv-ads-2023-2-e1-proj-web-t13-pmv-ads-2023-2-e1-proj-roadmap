@@ -1,3 +1,4 @@
+
 #infographic .circle {
     width: 320px;
     height: 320px;
@@ -15,97 +16,88 @@
  #infographic section:nth-child(odd) .circle {
     transform: translateX(-100%);
  }
-
  .fundo_azul {
  background-color:#8B969D ;
  }
  .texto_titulo {
    text-decoration: solid black;
  }
- 
- .retangulo {
+  .retangulo {
     border: 2px solid #1E3648; 
  }
-
  .retangulodois{
    border: 2px solid #606B73; 
  }
 .fundo_verde {
    background-color: #66796B;
-
  }
  .fundo_intermediario {
-   background-color: #4F5F73;
-
+   background-color: #606B73;
  }
  .fundo_avancado {
    background-color: #8F534D;
  }
 
- 
+ /* Botões de conteudos */
  #infographic article {
     max-width: 410px;
     margin-bottom: 20px;
+    border: 1px solid;
+    border-color: black;
     cursor: pointer;
     left: 50%;
     position: relative;
  }
- 
- #infographic article header i {
+ /* Bolinhas da trilha */
+  #infographic article header i {
     display: flex;
     border-radius: 50%;
+    border: 1px solid;
+    border-color: black;
     padding: 20px;
     transition: transform 0.4s;
     color: #fff;
     margin: -20px 0 -20px -60px;
  }
- #infographic article:hover header i {
-    transform: scale(1.2);
- }
- #infographic article.active header i {
+  #infographic article.active header i {
     transform: none;
  }
- 
- #infographic article .body {
+  /* Corpo do conteudo de cada titulo */
+  #infographic article .body {
     background: var(--bgColor);
     padding: 0 20px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
     max-height: 0;
     transition: max-height 0.5s, padding 0.5s;
     overflow: hidden;
  }
  #infographic article .body .btn {
-    padding: 3px 10px;
+    padding: 3px 8px;
     text-transform: uppercase;
  }
+
+ /* Colocar intermediario para esquerda */
  #infographic :nth-child(even) article {
     text-align: right;
-    transform: translateX(-100%);
+    transform: translateX(-114%);
  }
  #infographic :nth-child(even) article header {
     flex-flow: row-reverse;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
  }
  #infographic :nth-child(even) article header i {
     margin: -16px -20px -16px 0;
  }
- 
- #infographic section:nth-child(odd) article.active header {
-    border-bottom-right-radius: 0;
+  #infographic section:nth-child(odd) article.active header {
+    border-bottom-right-radius: 5;
  }
  #infographic section:nth-child(even) article.active header {
-    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 5;
  }
- 
- #infographic article.active .body {
+  #infographic article.active .body {
     padding: 20px;
     max-height: 300px;
     border: 1px solid;
  }
  
-
  #infographic article[data-step="1"] {
     margin-left: 6px;
  }
@@ -122,13 +114,13 @@
     margin-left: 22px;
  }
  #infographic article[data-step="6"] {
-    margin-left: -5px;
+    margin-left: -2px;
  }
  #infographic article[data-step="7"] {
-    margin-left: -54px;
+    margin-left: -30px;
  }
  #infographic article[data-step="8"] {
-    margin-left: -70px;
+    margin-left: -40px;
  }
  #infographic article[data-step="9"] {
     margin-left: -60px;
