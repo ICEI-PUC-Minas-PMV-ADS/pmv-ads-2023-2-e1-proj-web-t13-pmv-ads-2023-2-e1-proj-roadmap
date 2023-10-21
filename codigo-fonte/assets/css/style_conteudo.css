@@ -19,10 +19,7 @@
  .fundo_azul {
  background-color:#8B969D ;
  }
- .texto_titulo {
-   text-decoration: solid black;
- }
-  .retangulo {
+   .retangulo {
     border: 2px solid #1E3648; 
  }
  .retangulodois{
@@ -69,6 +66,7 @@
     max-height: 0;
     transition: max-height 0.5s, padding 0.5s;
     overflow: hidden;
+    text-align: center;
  }
  #infographic article .body .btn {
     padding: 3px 8px;
@@ -77,14 +75,13 @@
 
  /* Colocar intermediario para esquerda */
  #infographic :nth-child(even) article {
-    text-align: right;
-    transform: translateX(-114%);
+     transform: translateX(-123%);
  }
  #infographic :nth-child(even) article header {
     flex-flow: row-reverse;
  }
  #infographic :nth-child(even) article header i {
-    margin: -16px -20px -16px 0;
+    margin: -16px -60px -16px 83px;
  }
   #infographic section:nth-child(odd) article.active header {
     border-bottom-right-radius: 5;
@@ -94,10 +91,11 @@
  }
   #infographic article.active .body {
     padding: 20px;
-    max-height: 300px;
+    max-height: 400px;
     border: 1px solid;
  }
- 
+
+ /* Posicionamento das bolinhas no S */
  #infographic article[data-step="1"] {
     margin-left: 6px;
  }
@@ -117,10 +115,10 @@
     margin-left: -2px;
  }
  #infographic article[data-step="7"] {
-    margin-left: -30px;
+    margin-left: -50px;
  }
  #infographic article[data-step="8"] {
-    margin-left: -40px;
+    margin-left: -70px;
  }
  #infographic article[data-step="9"] {
     margin-left: -60px;
@@ -144,6 +142,6 @@
     margin-left: 23px;
  }
  #infographic article[data-step="16"] {
-    margin-left: -102px;
+    margin-left: -90px;
  }
  
