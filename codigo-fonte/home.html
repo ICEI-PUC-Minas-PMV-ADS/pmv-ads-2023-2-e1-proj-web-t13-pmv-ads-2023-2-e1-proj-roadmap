@@ -15,12 +15,29 @@
             justify-content: center;
             flex-wrap: wrap;
             gap: 10px;
-            margin-top: 200px;
+            margin-top: 120px;
             margin-bottom: 200px;
+            background-color: lightgray;
+        }
+        
+        .header-container {
+            text-align: center;
+            margin: 50px 0;
+            font-weight: 800;
+            font-size: 275%;
+            background-color: gray;
+            margin-left: 0%;
+            margin-right: 0%;
+            color: white;
         }
 
         .button-container .btn {
-            flex: 0 0 35%; /* Para ajustar o tamanho dos botões */
+            flex: 18%;
+            background-color: gray;
+            color: black;
+            font-weight: 600;
+            margin-block-end: 10px;
+            margin-block-start: 10px;
         }
     </style>
 </head>
@@ -31,18 +48,21 @@
     </header>
     <div class="container mb-3">
         <div class="row">
-            <div class="col-md-2 bg-success">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, commodi.
+            <div class="col-md-2">                
+                
             </div>
-            <div class="col-md-8 bg-warning">
+            <div class="col-md-8">
+                <div class="header-container" class="col-md-8">
+                    <p>Descubra os melhores caminhos para se tornar um desenvolvedor.</p>
+                </div>
                 <div class="button-container">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#frontEndCollapse" aria-expanded="false" aria-controls="frontEndCollapse">Front-end</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#backEndCollapse" aria-expanded="false" aria-controls="backEndCollapse">Back-end</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#fullStackCollapse" aria-expanded="false" aria-controls="fullStackCollapse">Full-stack</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#mobileCollapse" aria-expanded="false" aria-controls="mobileCollapse">Mobile</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dataCollapse" aria-expanded="false" aria-controls="dataCollapse">Dados</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#devOpsCollapse" aria-expanded="false" aria-controls="devOpsCollapse">DevOps</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#cybersegurancaCollapse" aria-expanded="false" aria-controls="cybersegurancaCollapse">Cyberseguranca Luluti</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#frontEndCollapse" aria-expanded="false" aria-controls="frontEndCollapse">Front-end</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#backEndCollapse" aria-expanded="false" aria-controls="backEndCollapse">Back-end</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#fullStackCollapse" aria-expanded="false" aria-controls="fullStackCollapse">Full-stack</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#mobileCollapse" aria-expanded="false" aria-controls="mobileCollapse">Mobile</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#dataCollapse" aria-expanded="false" aria-controls="dataCollapse">Dados</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#devOpsCollapse" aria-expanded="false" aria-controls="devOpsCollapse">DevOps</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#cybersegurancaCollapse" aria-expanded="false" aria-controls="cybersegurancaCollapse">Cyberseguranca</button>
                 </div>
                 <div class="collapse" id="frontEndCollapse">
                     Conteúdo do Front-end
@@ -63,11 +83,11 @@
                     Conteúdo do DevOps
                 </div>
                 <div class="collapse" id="cybersegurancaCollapse">
-                    Conteúdo do Cyberseguranca Luluti
+                    Conteúdo do Cyberseguranca
                 </div>
             </div>
-            <div class="col-md-2 bg-opacity-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, facere?
+            <div class="col-md-2">
+                
             </div>
         </div>
 
