@@ -1,16 +1,18 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    align-items:center;
+    align-items: center;
     padding: 18px 20px;
     background-color: #606B73;
     color: black;
     font-weight: 600;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -20,10 +22,12 @@ header {
     padding: 16px;
     text-decoration: none;
 }
-.login a{
+
+.login a {
     color: #fff;
     text-decoration: none;
 }
+
 .custom-button {
     background-color: #606B73;
     color: black;
@@ -34,13 +38,43 @@ header {
 }
 
 .custom-button:hover {
-    background-color: #eee; /* Cinza claro quando o mouse interage */
+    background-color: #eee;
+    /* Cinza claro quando o mouse interage */
 }
+
 a:link {
     color: rgb(0, 0, 0);
     text-decoration: none;
-   }
-   
-   a:hover {
+}
+
+a:hover {
     color: rgb(46, 146, 189);
-   }
+}
+/* Adicione estes estilos para centralizar o texto dentro da div.card */
+
+.card {
+    border: 1px solid black;
+    max-width: 500px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: darkgray;
+}
+
+p {
+    margin: 0;
+    font-weight: bold;
+}
