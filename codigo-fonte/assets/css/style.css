@@ -45,7 +45,7 @@ header {
     /* Cinza claro quando o mouse interage */
 }
 
-a:link {
+a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
