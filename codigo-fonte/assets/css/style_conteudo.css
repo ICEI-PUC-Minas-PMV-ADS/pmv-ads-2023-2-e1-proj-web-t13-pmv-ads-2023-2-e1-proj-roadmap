@@ -105,7 +105,7 @@ p {
 .fundo_azul {
 background-color:#8B969D;
 }
-  .retangulo {
+.retangulo {
    border: 2px solid #1E3648; 
 }
 .retangulodois{
@@ -230,3 +230,10 @@ background-color:#8B969D;
    margin-left: -90px;
 }
 
+/* Inserindo media Querys para responsividade */
+
+@media (max-width: 600px) {
+   #infographic .circle{
+    display: none;
+   }
+ }

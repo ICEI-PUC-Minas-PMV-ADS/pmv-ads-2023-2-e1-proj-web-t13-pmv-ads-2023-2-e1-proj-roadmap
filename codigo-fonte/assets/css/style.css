@@ -57,10 +57,9 @@ a:hover {
 /* Adicione estes estilos para centralizar o texto dentro da div.card */
 
 .card {
+    flex-direction: column;  
     border: 1px solid black;
     max-width: 500px;
-    margin-left: 750px;
-    margin-top: 50px;
     padding: 15px;
     justify-content: center;
     align-items: center;
@@ -81,4 +80,10 @@ p {
     margin: 0;
     font-weight: bold;
 }
+
+@media (max-width: 500px) {
+    .card, .container{
+    width: 100%;
+    }
+  }
 /* incluso o css do sobre*/
