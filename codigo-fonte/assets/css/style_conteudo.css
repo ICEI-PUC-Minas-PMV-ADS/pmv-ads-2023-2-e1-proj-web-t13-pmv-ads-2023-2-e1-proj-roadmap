@@ -120,9 +120,12 @@ background-color:#8B969D;
 .fundo_avancado {
   background-color: #8F534D;
 }
-
+.title_content {
+   -ms-text-justify: ;
+}
 /* Botões de conteudos */
 #infographic article {
+   text-align: center;
    max-width: 400px;
    margin-bottom: 20px;
    border: 1px solid;
@@ -142,12 +145,14 @@ background-color:#8B969D;
    color: #fff;
    margin: -20px 0 -20px -60px;
 }
+
  #infographic article.active header i {
    transform: none;
 }
  /* Corpo do conteudo de cada titulo */
  #infographic article .body {
    padding: 0 20px;
+   
    max-height: 0;
    transition: max-height 0.5s, padding 0.5s;
    overflow: hidden;

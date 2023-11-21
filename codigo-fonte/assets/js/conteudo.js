@@ -3,6 +3,8 @@
    Forget about jQuery
 */
 
+
+
 // Expand/Collapse Article
 document.querySelectorAll("#infographic article").forEach((article) => {
    article.addEventListener("click", () => {
