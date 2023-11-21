@@ -17,21 +17,6 @@ header {
     font-weight: 600;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    color: #000000;
-    background-color: #606B73;
-    border: none;
-    padding: 16px;
-    text-decoration: none;
-}
-
-.login a {
-    color: #fff;
-    text-decoration: none;
-}
-
 .custom-button {
     background-color: #606B73;
     color: black;
@@ -39,11 +24,6 @@ header {
     border: none;
     padding: 10px 20px;
     transition: background-color 0.3s;
-}
-
-.custom-button:hover {
-    background-color: #eee;
-    /* Cinza claro quando o mouse interage */
 }
 
 a {
@@ -54,7 +34,6 @@ a {
 a:hover {
     color: rgb(46, 146, 189);
 }
-/* Adicione estes estilos para centralizar o texto dentro da div.card */
 
 .card {
     border: 1px solid black;
@@ -65,6 +44,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 50px auto;
 }
 
 .container {
@@ -82,3 +62,53 @@ p {
     font-weight: bold;
 }
 /* incluso o css do sobre*/
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width:730px) {
+    .container-fluid  {
+        padding: 1.5rem 4rem;
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; /* Ajuste conforme necessário */
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu {
+        display: block;
+        overflow: hidden;
+        position: absolute;
+        transition: max-height 0.3s ease-in-out;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
