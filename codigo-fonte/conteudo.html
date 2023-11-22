@@ -63,52 +63,39 @@
         <div class="circle fundo_verde">
           <h4>INICIANTE</h4>
         </div>
-        
-        <article data-step="1">          
-        <!-- Botão para acionar modal -->
-       <header class="d-flex align-items-center ">
-         <i class="fa-solid fundo_verde"></i>            
-         <button type="button" class="d-flex align-items-center text-black fundo_verde" data-toggle="modal" data-target="#ModalLongoExemplo">
-          HTML - Fundamentos:
-         </button>
-       </header>
-
-<!-- Modal -->
-<div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="TituloModalLongoExemplo">HTML - Fundamentos:</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
-        <ul class="lista"> 
-           <li>Aprender quais tags são necessárias para um HTML básico</li>
-            <li>Criar um parágrafo de texto</li>
-              <li>Exibir uma imagem</li>
-                <li>Conhecer a diferença entre 'h1', 'h2', 'h3', etc</li>
-                  <li>Criar um texto com hyperlink</li>
-                    <li>Criar um formulário com campos relevantes</li>
-                      <li>Criar uma lista de itens ordenada ou não ordenada</li>
-                        <li>Criar uma lista de itens dentro de uma lista suspensa (dropdown list)</li>
-                          <li>Conectar com um arquivo de CSS</li>
-                            <li>Criar uma tabela</li>
-                              <li>Adicionar IDs e classes</li>
-
-        </ul>
-        
-      </div>
-      <div class="modal-footer">
-        
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-      </div>
-    </div>
-  </div>
-</div>
+         <!-- Modal Bootstrap -->
+        <body>
+          <div class="container">
+              <button type="button" class="btn btn-primary exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" data="1">
+                HTML - Fundamentos:
+                </button>
           
+                <button type="button" class="btn btn-primary exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" data="2">
+                  Launch demo modal
+                </button>
+                
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+      
+          </div>
+
+        <!-- Final Modal Bootstrap --> 
           
 
         </article>
