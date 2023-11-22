@@ -15,6 +15,13 @@ body {
     color: black;
     font-weight: 600;
 }
+.lista {
+   background-color: ;
+   padding: 2px;
+   text-align: left;
+   margin-left: 30px;
+   margin-top: 20px;
+}
 
 .navbar {
     display: flex;
@@ -105,7 +112,7 @@ p {
 .fundo_azul {
 background-color:#8B969D;
 }
-  .retangulo {
+.retangulo {
    border: 2px solid #1E3648; 
 }
 .retangulodois{
