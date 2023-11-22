@@ -10,38 +10,35 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo">
+        <nav class="navbar navbar-expand-lg margin-none bg-transparent-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre-nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="suporte.html">Suporte</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="logo">
             <a href="home.html">
-                <img src="./assets/images/logo.png" alt="Logo" height="40px" width="145">
+                <img src="./assets/images/logo.png" alt="Logo" height="50px" width="185">
             </a>
         </div>
-        <nav>
-            <form class="container-fluid justify-content-start">
-                <ul>
-                    <li><button class="btn btn-light custom-button"><a href="sobre.html">Sobre nós</a></button></li>
-                    <li><button class="btn btn-light custom-button"><a href="contato.html">Contato</a></button></li>
-                    <li><button class="btn btn-light custom-button"><a href="suporte.html">Suporte</a></button></li>
-                </ul>
-            </form>
+          <nav>
+            <button type="button" class="btn btn-secondary btn-lg"><a href="login.html" Login>Login</a></button>
         </nav>
-        <nav>
-            <form class="container-fluid justify-content-start">
-                <button class="btn btn-light custom-button"><a href="login.html" style="text-decoration:none">LOGIN</a></button>
-            </form>
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="/documentos/img/menu_white_36dp.svg"></button>
-            </div>
-        </nav>
-        <div class="mobile-menu">
-            <ul>
-                <li><button class="btn btn-light custom-button"><a href="sobre.html">Sobre nós</a></button></li>
-                <li><button class="btn btn-light custom-button"><a href="contato.html">Contato</a></button></li>
-                <li><button class="btn btn-light custom-button"><a href="suporte.html">Suporte</a></button></li>
-                <li><button class="btn btn-light custom-button"><a href="login.html" style="text-decoration:none">LOGIN</a></button></li>
-            </ul>
-        </div>
     </header>
-    <!-- Seu conteúdo vai aqui -->
     <footer class="footer">
         <div class="footer-right col-md-4 col-sm-6">
         <h2> ROADMAP DEV<span> </span></h2>
