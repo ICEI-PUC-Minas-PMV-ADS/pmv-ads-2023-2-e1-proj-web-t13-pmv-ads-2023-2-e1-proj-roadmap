@@ -43,13 +43,51 @@ if (exampleModal) {
           'Adicionar IDs e classes']
         break;
       case "2":
-        title = 'Titulo 2';
+        title = 'CSS - Fundamentos';
         content = 'Conteudo 2';
         break;
       case "3":
-        title = 'Titulo 3';
+        title = 'JavaScript - Fundamentos';
         content = 'Conteudo 3';
         break;
+      case "4":
+        title = 'DOM - Fundamentos';
+        content = 'Conteudo 3';
+        break;
+      case "5":
+        title = 'Design Responsivo';
+        content = 'Conteudo 3';
+        break;
+      case "6":
+        title = 'Acessibilidade Javascript';
+        content = 'Conteudo 3';
+        break;
+      case "7":
+        title = 'JavaScript - Callbacks e Promises';
+        content = 'Conteudo 3';
+        break;
+      case "8":
+        title = 'JavaScript - Modularização';
+        content = 'Conteudo 3';
+        break;
+      case "9":
+        title = 'JavaScript - Testes';
+        content = 'Conteudo 3';
+        break;
+      case "10":
+        title = 'JavaScript - Manipulação de Erros';
+        content = 'Conteudo 3';
+        break;
+      case "11":
+        title = 'JavaScript - ES6';
+        content = 'Conteudo 3';
+        break;
+      case "12":
+        title = 'Versionamento Semântico para Front-end';
+        content = 'Conteudo 3';
+        break;
+
+
     }
 
     let ul = document.createElement("ul"); // create an unordered list element
