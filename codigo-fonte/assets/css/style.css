@@ -52,3 +52,16 @@ a {
 .nav-link {
     color: white;
 }
+
+.navbar {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around
+    text-align baseline;
+}
+
+.divVazia {
+    display: none;
+    height: 1px;
+    
+}
