@@ -1,44 +1,12 @@
-/*
-   ES6
-   Forget about jQuery
-*/
-
-
-
-// Expand/Collapse Article
-document.querySelectorAll("#infographic article").forEach((article) => {
-   article.addEventListener("click", () => {
-      article.classList.toggle("active");
-   });
-});
-
-// Always Collapse Article on click outside
-document.addEventListener("mouseup", (e) => {
-   document.querySelectorAll("article.active").forEach((article) => {
-      if (article.contains(e.target)) return;
-      if (article === e.target) return;
-      article.classList.remove("active");
-   });
-});
-
-// Activate artciles through prev/next interactions
-document.querySelectorAll("#infographic article .btn").forEach((btn) => {
-   btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      var isprev =
-         e.target === e.target.parentElement.firstElementChild ? true : false;
-      var article = btn.closest("article");
-      var step = parseInt(article.getAttribute("data-step"));
-      var next = document.querySelector(
-         `[data-step="${isprev ? step - 1 : step + 1}"]`
-      );
-      next.classList.add("active");
-      next.scrollIntoView({
-         behavior: "smooth",
-         block: "nearest"
-      });
-   });
-});
+/**
+ * ATENÇÃO: Isso não é uma boa prática na maioria dos casos quando se trabalha com javascript vanilla
+ * Essa é uma maneira de trazer "reatividade" para o js, porém nesses casos é mais que recomendado
+ * trabalhar com algum framework reativo como react, vue, etc
+ * 
+ * Isso não deve ser utilizado quando o conteúdo for importante para os motores que pesquisa (google, bing, etc)
+ * pois dessa maneira o "robo" desses mecanismos não conseguem interpretar o conteúdo HTML.
+ * Alguns casos quando o conteúdo não é importante para o "robo": Paginas da área logada, SPAs
+ */
 
 
 

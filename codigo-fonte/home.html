@@ -8,41 +8,57 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="codigo-fonte/assets/css/style_home.css">
+    <link rel="stylesheet" href="./assets/css/style_footer.css">
     <!-- Sua folha de estilos vai aqui -->
-    <style>
-        .button-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 200px;
-            margin-bottom: 200px;
-        }
-
-        .button-container .btn {
-            flex: 0 0 35%; /* Para ajustar o tamanho dos botões */
-        }
-    </style>
+    
 </head>
 
 <body>
-    <header>
-        <!-- Seu conteúdo de cabeçalho aqui -->
-    </header>
-    <div class="container mb-3">
-        <div class="row">
-            <div class="col-md-2 bg-success">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, commodi.
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-trasparent-body-tertiary">
+            <div class="container-fluid">
+                <a href="home.html">
+                    <img src="./assets/images/logo.png" alt="Logo" height="50px" width="185">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre-nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="suporte.html">Suporte</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <button type="button" class="btn btn-secondary btn-lg"><a href="login.html" Login>Login</a></button>
+                </form>
+                </div>
             </div>
-            <div class="col-md-8 bg-warning">
+          </nav>
+    </header>
+    <div class="container fundo_azul mb-3">
+        <div class="row">
+            <div class="col-md-2">                
+                
+            </div>
+            <div class="col-md-8">
+                <div class="header-container" class="col-md-8">
+                    <p>Descubra os melhores caminhos para se tornar um desenvolvedor.</p>
+                </div>
                 <div class="button-container">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#frontEndCollapse" aria-expanded="false" aria-controls="frontEndCollapse">Front-end</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#backEndCollapse" aria-expanded="false" aria-controls="backEndCollapse">Back-end</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#fullStackCollapse" aria-expanded="false" aria-controls="fullStackCollapse">Full-stack</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#mobileCollapse" aria-expanded="false" aria-controls="mobileCollapse">Mobile</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dataCollapse" aria-expanded="false" aria-controls="dataCollapse">Dados</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#devOpsCollapse" aria-expanded="false" aria-controls="devOpsCollapse">DevOps</button>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#cybersegurancaCollapse" aria-expanded="false" aria-controls="cybersegurancaCollapse">Cyberseguranca Luluti</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#frontEndCollapse" aria-expanded="false" aria-controls="frontEndCollapse">Front-end</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#backEndCollapse" aria-expanded="false" aria-controls="backEndCollapse">Back-end</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#fullStackCollapse" aria-expanded="false" aria-controls="fullStackCollapse">Full-stack</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#mobileCollapse" aria-expanded="false" aria-controls="mobileCollapse">Mobile</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#dataCollapse" aria-expanded="false" aria-controls="dataCollapse">Dados</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#devOpsCollapse" aria-expanded="false" aria-controls="devOpsCollapse">DevOps</button>
+                    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#cybersegurancaCollapse" aria-expanded="false" aria-controls="cybersegurancaCollapse">Cyberseguranca</button>
                 </div>
                 <div class="collapse" id="frontEndCollapse">
                     Conteúdo do Front-end
@@ -63,17 +79,40 @@
                     Conteúdo do DevOps
                 </div>
                 <div class="collapse" id="cybersegurancaCollapse">
-                    Conteúdo do Cyberseguranca Luluti
+                    Conteúdo do Cyberseguranca
                 </div>
             </div>
-            <div class="col-md-2 bg-opacity-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, facere?
+            <div class="col-md-2">
+                
             </div>
         </div>
 
     </div>
+    <footer class="footer">
+      
+        <div class="footer-right col-md-4 col-sm-6">
+            <h2> ROADMAP DEV<span> </span></h2>
+            
+            <p class="name"> Privacy - terms &copy; 2010 - 2020</p>
+        </div>
+        
+        <div class="footer-left col-md-4 col-sm-6">
+            <p class="about">
+            
+            <span> Desenvolva sua carreira da maneira certa</span> Este site foi desenvolvido para fins acadêmicos , para a matéria do Projeto 1 - HTML E CSS da universidade Puc Minas.
+            </p>
+            <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=61552838040686"><img src="./assets/images/facebook.jpeg"></a>
+            <a href="sobre.html"><img src="./assets/images/iconroadmap.jpeg"></a>
+            <a href="https://www.instagram.com/roadmapdev/"></i><img src="./assets/images/instagram.jpeg"></a>
+            </div>
+        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-3SLX+VdpD6cIEjYwq0xYjXZtlJnkYlchEY3VJ+cZwF4b9SRPeX0nGf7bISpcOiMh" crossorigin="anonymous"></script>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
