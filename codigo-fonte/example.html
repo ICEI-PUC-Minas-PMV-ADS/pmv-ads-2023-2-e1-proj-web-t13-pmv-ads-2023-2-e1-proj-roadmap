@@ -13,24 +13,34 @@
 
 <body>
   <header class="header">
-      <div class="logo">
-        <a href="home.html">
-          <img src="./assets/images/logo.png" alt="Logo" height="40px" width="145">
-        </a>
-      </div>
-    <nav>
-      <form class="container-fluid justify-content-start">
-        <button class="btn btn-light custom-button"><a href="sobre.html">Sobre nós</a></button>
-        <button class="btn btn-light custom-button"><a href="contatos.html">Contatos</a></button>
-        <button class="btn btn-light custom-button"><a href="suporte.html">Suporte</a></button>
-      </form>
-    </nav>
-    <nav>
-      <form class="container-fluid justify-content-start">
-        <button class="btn btn-light custom-button"><a href="login.html" style="text-decoration:none">LOGIN</a></button>
-      </form>
-    </nav>
-  </header>
+    <nav class="navbar navbar-expand-lg bg-trasparent-body-tertiary">
+        <div class="container-fluid">
+            <a href="home.html">
+                <img src="./assets/images/logo.png" alt="Logo" height="50px" width="185">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre-nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="suporte.html">Suporte</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button type="button" class="btn btn-secondary btn-lg"><a href="login.html" Login>Login</a></button>
+            </form>
+            </div>
+        </div>
+      </nav>
+</header>
+
 
       <!-- Codigo conteudos Iniciante -->
 
@@ -43,12 +53,14 @@
       <div class="circle fundo_verde">
         <h4>INICIANTE</h4>
       </div>
+      
 
     <div class="container">
-        <button type="button" class="btn btn-primary exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" data="1">
+      
+        <button type="button" class="btn btn-primary exampleModal bubble1" data-bs-toggle="modal" data-bs-target="#exampleModal" data="1">
           HTML - Fundamentos
         </button>
-        <button type="button" class="btn btn-primary exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" data="2">
+        <button type="button" class="btn btn-primary exampleModal bubble2" data-bs-toggle="modal" data-bs-target="#exampleModal" data="2">
           CSS - Fundamentos
         </button>
         <button type="button" class="btn btn-primary exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" data="3">
@@ -89,13 +101,13 @@
         <!-- Codigo conteudos Avançado -->
 
         <button type="button" class="btn btn-primary exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" data="13">
-          HTML - Fundamentos:
+          Jest
         </button>
         <button type="button" class="btn btn-primary exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" data="14">
-          CSS - Fundamentos
+          Conceitos de Orientação a Objetos
         </button>
         <button type="button" class="btn btn-primary exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" data="15">
-          JavaScript - Fundamentos
+          JavaScript - Armazenamento
         </button>
         <button type="button" class="btn btn-primary exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal" data="16">
           DOM - Fundamentos
