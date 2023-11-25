@@ -44,11 +44,36 @@ if (exampleModal) {
         break;
       case "2":
         title = 'CSS - Fundamentos';
-        content = 'Conteudo 2';
+        content = 'Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.';
+        listItens = ['Aprender a estrutura visual de uma página, com margin e padding',
+        'Estabelecer o tamanho com width e height',
+        'Aprender sobre a posição de um elemento (static, relative ou absolute)',
+        'Aprender sobre o display de exibição de um elemento (block, inline, inline-block)',
+        'Aprender a posicionar imagens em relação ao texto',
+        'Aprender sobre alinhamento',
+        'Aprender sobre estilo de fontes',
+        'Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)',
+        'Conectar com os elementos (IDs, classes) de um arquivo HTML',
+        'Alterar características de um elemento quando o mouse passar por cima dele (hover),
+        'Aprender box-sizing',
+        'Aprender Flexbox',
+        'Aprender Grid']
         break;
       case "3":
         title = 'JavaScript - Fundamentos';
-        content = 'Conteudo 3';
+        content = 'JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.';
+        listItens = [
+          'Conhecer os tipos primitivos',
+"Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const",
+"Usar estruturas condicionais ('if', 'else')",
+"Conhecer os operadores de atribuição e comparação ('=', '==', '===')",
+"Usar estruturas de repetição e laços ('while', 'for')",
+'Usar funções, passando parâmetros e argumentos',
+'Manipular arrays e listas',
+'Aprender o conceito de Orientação a Objetos',
+'Fazer um CRUD',
+'Obter dados de uma API',
+"Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc"] 
         break;
       case "4":
         title = 'DOM - Fundamentos';
@@ -86,8 +111,34 @@ if (exampleModal) {
         title = 'Versionamento Semântico para Front-end';
         content = 'Conteudo 3';
         break;
-
-
+      case "13":
+        title = 'Jest';
+        content = 'Conteudo 3';
+        break;
+      case "14":
+        title = 'Conceitos de Orientação a Objetos';
+        content = 'Conteudo 3';
+        break;
+      case "15":
+        title = 'JavaScript - Armazenamento';
+        content = 'Conteudo 3';
+        break;
+      case "16":
+        title = 'Versionamento Semântico para Front-end';
+        content = 'Conteudo 3';
+        break;
+      case "17":
+        title = 'Versionamento Semântico para Front-end';
+        content = 'Conteudo 3';
+        break;
+      case "18":
+        title = 'Versionamento Semântico para Front-end';
+        content = 'Conteudo 3';
+        break;
+      case "12":
+        title = 'Versionamento Semântico para Front-end';
+         content = 'Conteudo 3';
+         break;
     }
 
     let ul = document.createElement("ul"); // create an unordered list element
