@@ -45,7 +45,7 @@ header {
     align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: darkgray;
+    background-color: #8B969D;
 }
 
 /* incluso o css do sobre*/
@@ -72,35 +72,4 @@ header {
     text-align baseline;
 }
 
-/* Begin CSS da pagina home */
 
-.header-container {
-    text-align: center;
-    margin: 50px 0;
-    font-weight: 800;
-    font-size: 275%;
-    background-color: gray;
-    margin-left: 0%;
-    margin-right: 0%;
-    color: white;
-}
-
-.button-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px; /* Adicionei uma margem inferior para separar dos conteúdos abaixo */
-}
-
-.button-container .btn {
-    flex: 0 0 calc(18% - 20px); /* Calculei a largura considerando a margem entre os botões */
-    margin: 10px; /* Adicionei uma margem entre os botões */
-    background-color: gray;
-    color: black;
-    font-weight: 600;
-}
-.btn-primary {
-    border: none; /* Remover a borda azul */
-}
-
-/*End CSS pagina Home*/
