@@ -17,6 +17,15 @@ header {
     font-weight: 600;
 }
 
+.form-container{
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.h-100{
+    height: 100%;
+}
+
 .card {
     border: 1px solid black;
     max-width: 500px;
@@ -39,19 +48,21 @@ header {
     background-color: #8B969D;
 }
 
-p {
-    margin: 0;
-    font-weight: bold;
-}
-
 /* incluso o css do sobre*/
-a {
+.estiloheader1 {
     text-decoration: none;
     color: white;
 }
+.estilobotao{
+    size: 8rem;
+    height: 4rem;
+    font-weight: 600;
+    font-size: x-large;
 
+}
 .nav-link {
     color: white;
+    font-size: larger;
 }
 
 .navbar {
@@ -61,8 +72,4 @@ a {
     text-align baseline;
 }
 
-.divVazia {
-    display: none;
-    height: 1px;
-    
-}
+
