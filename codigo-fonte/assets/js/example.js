@@ -54,7 +54,7 @@ if (exampleModal) {
         'Aprender sobre estilo de fontes',
         'Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)',
         'Conectar com os elementos (IDs, classes) de um arquivo HTML',
-        'Alterar características de um elemento quando o mouse passar por cima dele (hover),
+        'Alterar características de um elemento quando o mouse passar por cima dele (hover)',
         'Aprender box-sizing',
         'Aprender Flexbox',
         'Aprender Grid']
