@@ -11,45 +11,42 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style_conteudo.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="./assets/css/style_footer.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+
   </head>
 
   <body>
     <header class="header">
-      <div class="logo">
-        <a href="home.html">
-          <img
-            src="./assets/images/logo.png"
-            alt="Logo"
-            height="40px"
-            width="145"
-          />
-        </a>
-      </div>
-      <nav>
-        <form class="container-fluid justify-content-start">
-          <button class="btn btn-light custom-button">
-            <a href="sobre.html">Sobre nós</a>
-          </button>
-          <button class="btn btn-light custom-button">
-            <a href="contatos.html">Contatos</a>
-          </button>
-          <button class="btn btn-light custom-button">
-            <a href="suporte.html">Suporte</a>
-          </button>
-        </form>
-      </nav>
-      <nav>
-        <form class="container-fluid justify-content-start">
-          <button class="btn btn-light custom-button">
-            <a href="login.html" style="text-decoration: none">LOGIN</a>
-          </button>
-        </form>
-      </nav>
-    </header>
+      <nav class="navbar navbar-expand-lg bg-trasparent-body-tertiary">
+          <div class="container-fluid">
+              <a href="home.html">
+                  <img src="./assets/images/logo.png" alt="Logo" height="50px" width="185">
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre-nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="suporte.html">Suporte</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <button type="button" class="btn btn-secondary btn-lg"><a href="login.html" Login>Login</a></button>
+              </form>
+              </div>
+          </div>
+        </nav>
+  </header>
 
     <div class="d-flex justify-content-center my-5">
       <h1>Front-End</h1>
@@ -58,51 +55,41 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 d-flex justify-content-end">
-            <div class="circulo fundo_verde">
+            <div class="quadrado fundo_verde">
               <h4>INICIANTE</h4>
             </div>
           </div>
-          <div class="col-md-6" style="padding-left: 0;">
+          <div class="col-md-6">
             <div class="container">
                 <div class="row">
-                    <div class="fundo_verde col-md-2">
+                    <div class="fundo_verde">
                       </div>
-                    <button class="btn btn-primary col-md-10">
+                    <button class="btn btn-primary col-md-8">
                             HTML - Fundamentos:
                     </button>
                 </div>
-                <div class="row mt-2" style="padding-left: 30px; padding-right: 90px;">
-                    <div class="fundo_verde col-md-2">
-                    </div>
-                  <button class="btn btn-primary col-md-10">
-                          HTML - Fundamentos:
-                  </button>
-                </div>
-                <div class="row mt-2" style="padding-left: 60px; padding-right: 60px;">
-                    <div class="fundo_verde col-md-2">
-                    </div>
-                  <button class="btn btn-primary col-md-10">
-                          HTML - Fundamentos:
-                  </button>
-                </div>
-                <div class="row mt-2" style="padding-left: 60px; padding-right: 60px;">
-                    <div class="fundo_verde col-md-2">
-                    </div>
-                  <button class="btn btn-primary col-md-10">
-                          HTML - Fundamentos:
-                  </button>
-                </div>
-                <div class="row mt-2" style="padding-left: 30px; padding-right: 90px;">
-                    <div class="fundo_verde col-md-2">
-                    </div>
-                  <button class="btn btn-primary col-md-10">
+                <div class="row mt-2">
+                  <button class="btn btn-primary col-md-8">
                           HTML - Fundamentos:
                   </button>
                 </div>
                 <div class="row mt-2">
-                    <div class="fundo_verde col-md-2">
-                    </div>
-                  <button class="btn btn-primary col-md-10">
+                  <button class="btn btn-primary col-md-8">
+                          HTML - Fundamentos:
+                  </button>
+                </div>
+                <div class="row mt-2">
+                  <button class="btn btn-primary col-md-8">
+                          HTML - Fundamentos:
+                  </button>
+                </div>
+                <div class="row mt-2">
+                  <button class="btn btn-primary col-md-8">
+                          HTML - Fundamentos:
+                  </button>
+                </div>
+                <div class="row mt-2">
+                  <button class="btn btn-primary col-md-8">
                           HTML - Fundamentos:
                   </button>
                 </div>
@@ -112,14 +99,17 @@
         <div class="row">
           <div class="col-md-6"></div>
           <div class="col-md-6">
-            <div class="circulo fundo_verde">
-              <h4>INICIANTE</h4>
+            <div class="quadrado fundo_verde">
+              <h4>INTERMEDIÁRIO</h4>
             </div>
           </div>
         </div>
+
+
+        
         <div class="row">
             <div class="col-md-6 d-flex justify-content-end">
-              <div class="circulo fundo_verde">
+              <div class="quadrado fundo_verde">
                 <h4>INICIANTE</h4>
               </div>
             </div>
@@ -128,6 +118,31 @@
           </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="logo">
+          <h2>
+              <span>
+                  <a href="home.html">
+                      <img src="./assets/images/logo.png" alt="Logo" height="70px" width="220">
+                  </a>
+              </span>
+          </h2>
+      </div>
+      <div class="title">
+          <p>Desenvolva sua carreira da maneira certa</p>
+            <p>Este site foi desenvolvido para fins acadêmicos, para a matéria do Projeto 1 - HTML E CSS da universidade Puc Minas.</p>
+          
+      </div>
+      <div class="icons">
+          <a href="https://www.facebook.com/profile.php?id=61552838040686"><img src="./assets/images/facebook.jpeg"></a>
+          <a href="sobre.html"><img src="./assets/images/iconroadmap.jpeg"></a>
+          <a href="https://www.instagram.com/roadmapdev/"><img src="./assets/images/instagram.jpeg"></a>
+          
+              <p>Privacy - terms &copy; 2010 - 2020</p>
+          </div>
+      </div>
+  </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

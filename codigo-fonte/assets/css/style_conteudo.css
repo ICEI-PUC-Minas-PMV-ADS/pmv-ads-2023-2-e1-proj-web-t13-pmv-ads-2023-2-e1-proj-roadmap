@@ -1,8 +1,8 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: darkgray;
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #8B969D;
 }
 
 .header {
@@ -80,15 +80,16 @@ p {
 }
 /* incluso o css do sobre*/
 
-.circulo {
-   width: 320px;
-   height: 320px;
+.quadrado {
+   width: 260px;
+   height: 260px;
    border: 1px solid;
    border-color: black;
    display: flex;
    flex-direction: column;   
    justify-content: center;
    text-align: center;
+   margin-top: 6px;
 }
 
 
