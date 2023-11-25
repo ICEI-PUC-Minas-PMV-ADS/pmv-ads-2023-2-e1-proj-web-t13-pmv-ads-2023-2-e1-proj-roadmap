@@ -1,5 +1,5 @@
 .quadrado {
-   width: 370px;
+   width: 380px;
    height: 330px;
    border: 1px solid;
    border-color: black;
@@ -32,4 +32,8 @@
 
 .quadrado h4 {
    font-weight: bold;
+}
+
+.modal-body {
+padding-left: ;
 }
