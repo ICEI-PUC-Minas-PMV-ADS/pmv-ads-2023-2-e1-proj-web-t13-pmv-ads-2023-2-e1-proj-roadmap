@@ -25,7 +25,7 @@ if (exampleModal) {
     let title = '';
     let content = '';
     let listItens = []    
-
+    
     switch ( recipient ) {
       case "1":
         title = 'HTML - Fundamentos:';
@@ -64,16 +64,16 @@ if (exampleModal) {
         content = 'JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.';
         listItens = [
           'Conhecer os tipos primitivos',
-"Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const",
-"Usar estruturas condicionais ('if', 'else')",
-"Conhecer os operadores de atribuição e comparação ('=', '==', '===')",
-"Usar estruturas de repetição e laços ('while', 'for')",
-'Usar funções, passando parâmetros e argumentos',
-'Manipular arrays e listas',
-'Aprender o conceito de Orientação a Objetos',
-'Fazer um CRUD',
-'Obter dados de uma API',
-"Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc"] 
+          "Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const",
+          "Usar estruturas condicionais ('if', 'else')",
+          "Conhecer os operadores de atribuição e comparação ('=', '==', '===')",
+          "Usar estruturas de repetição e laços ('while', 'for')",
+          'Usar funções, passando parâmetros e argumentos',
+          'Manipular arrays e listas',
+          'Aprender o conceito de Orientação a Objetos',
+          'Fazer um CRUD',
+          'Obter dados de uma API',
+          "Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc"] 
         break;
       case "4":
         title = 'DOM - Fundamentos';
