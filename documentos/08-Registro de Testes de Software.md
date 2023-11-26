@@ -8,9 +8,9 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <li> CT-14, CT-15: Verificar se é possível realizar comentários nos roadmaps, Verificar se a funcionalidade de avaliação dos roadmaps está funcionando corretamente.
 Responsável: Brendo.
 
-![](teste-barra-comentarios.png)
+![](<C:\Users\usuario\Desktop\Cursos brendo\Projetos Git\pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-roadmap\documentos\img\teste-barra-comentarios.png>)
 
-![](teste-barra-comentarios2.png)
+![](<teste-barra-comentarios.png>)
 
 <hr>
 
