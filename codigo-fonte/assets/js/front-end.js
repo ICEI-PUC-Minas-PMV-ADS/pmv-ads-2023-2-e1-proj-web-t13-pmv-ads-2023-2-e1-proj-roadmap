@@ -45,6 +45,7 @@ if (exampleModal) {
           "Conectar com um arquivo de CSS",
           "Criar uma tabela",
           "Adicionar IDs e classes",
+          
         ];
         break;
       case "2":

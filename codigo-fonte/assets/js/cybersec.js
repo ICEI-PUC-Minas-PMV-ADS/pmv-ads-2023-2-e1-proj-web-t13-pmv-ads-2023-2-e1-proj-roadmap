@@ -27,6 +27,7 @@ if (exampleModal) {
     let content = "";
     let listItens = [];
     
+    
     switch (recipient) {
       case "1":
         modalAtual = title = "Linha de comando - Fundamentos";
