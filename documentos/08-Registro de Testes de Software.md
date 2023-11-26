@@ -7,6 +7,14 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 <ol>
   <li>CT-12 | RF-10 - Marcação de Tópicos Estudados: Verificar se os tópicos estudados podem ser marcados na aplicação.
   Responsável: Thais Bertini
+  </li>
+
+<li>CT-13 | RF-11 - Exibição da Porcentagem de Roadmaps: Verificar se a exibição da porcentagem de cada roadmap está correta.
+  Responsável: Thais Bertini
+</li>
+
+D:\TI E DESIGN\Repositorio\Faculdade PUC MINAS\Faculdade Pucminas\pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-roadmap\documentos\CT-12 e CT 13    RF-10 E RF-11    Marcação de Tópicos Estudados.mp4
+
 
     
 
@@ -23,20 +31,6 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 
 
-
-
-
-<li> CT-14, CT-15: Verificar se é possível realizar comentários nos roadmaps, Verificar se a funcionalidade de avaliação dos roadmaps está funcionando corretamente.
-Responsável: Brendo.
-
-
-![](<teste-barra-comentarios2.png>)
-
-
-Selecionar um tópico e marcar como estudado.
-A marcação deve ser aplicada e registrada corretamente na aplicação.	Thais
-CT-13 Exibição da Porcentagem de Roadmaps	RF-11	Verificar se a exibição da porcentagem de cada roadmap está correta.	
-Verificar onde a porcentagem é exibida.
 
 
 
