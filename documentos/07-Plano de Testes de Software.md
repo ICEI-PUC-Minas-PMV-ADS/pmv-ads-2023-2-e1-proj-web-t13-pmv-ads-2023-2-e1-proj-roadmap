@@ -60,7 +60,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>A lista de tecnologias deve estar visível na tela inicial, apresentando todas as opções de escolha.</td>
-        <td>Brendo W. R.</td>
+        <td>Robert</td>
     </tr>
     <tr>
         <td>CT-04 Selecionar Tecnologia e Visualizar Roadmap</td>
@@ -74,7 +74,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>Após a escolha da tecnologia, o roadmap associado deve ser carregado com o conteúdo correto.</td>
-        <td>Brendo W. R.</td>
+        <td>Robert</td>
     </tr>  
     <tr>
         <td>CT-05 Realizar Pesquisa por Tecnologia</td>
@@ -88,7 +88,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>Os resultados da pesquisa devem ser precisos e corresponder à tecnologia inserida.</td>
-        <td>Brendo W. R.</td> 
+        <td>Robert</td> 
     </tr>
     <tr>
         <td>CT-06 Redirecionamento para Material Externo</td>
@@ -102,7 +102,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>O redirecionamento deve levar ao material externo associado ao tópico selecionado.</td>
-        <td>Brendo W. R.</td> 
+        <td>Thais</td> 
     </tr>
     <tr>
         <td>CT-07 Cadastro de Usuários</td>
@@ -117,7 +117,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>O cadastro deve ser concluído com sucesso, permitindo acesso posterior.</td>
-        <td>Brendo R. W.</td> 
+        <td>Leonardo</td> 
     </tr>
     <tr>
         <td>CT-08 Funcionalidade de Login</td>
@@ -131,7 +131,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>O acesso deve ser liberado para usuários autenticados.</td>
-        <td>Brendo W. R.</td> 
+        <td>Leonardo</td> 
     </tr>
     <tr>
         <td>CT-09 Criação de Perfis de Estudo</td>
@@ -145,7 +145,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>O perfil deve ser criado e salvo corretamente.</td>
-        <td>Brendo W. R.</td> 
+        <td>Leonardo</td> 
     </tr>
     <tr>
         <td>CT-10 Criação de Perfis de Estudo</td>
@@ -158,7 +158,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>Perfis devem estar corretamente configurados e diferenciados.</td>
-        <td>Brendo W. R.</td> 
+        <td>Leonardo</td> 
     </tr>
      <tr>
         <td>CT-11 Painel Administrativo</td>
@@ -171,7 +171,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>Todas as funcionalidades administrativas devem estar acessíveis e operacionais.</td>
-        <td>Brendo W. R.</td> 
+        <td></td> 
     </tr>
     <tr>
         <td>CT-12 Marcação de Tópicos Estudados</td>
@@ -184,7 +184,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>A marcação deve ser aplicada e registrada corretamente na aplicação.</td>
-        <td>Brendo W. R.</td> 
+        <td>Thais</td> 
     </tr>
     <tr>
         <td>CT-13 Exibição da Porcentagem de Roadmaps</td>
@@ -197,7 +197,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>As porcentagens devem ser exibidas corretamente, correspondendo ao progresso dos roadmaps.</td>
-        <td>Brendo W. R.</td> 
+        <td>Thais</td> 
     </tr>
     <tr>
         <td>CT-14 Avaliação dos Roadmaps</td>
@@ -210,7 +210,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>A avaliação deve ser concluída e registrada corretamente.</td>
-        <td>Brendo W. R.</td>
+        <td>Brendo</td>
     </tr>
     <tr>
         <td>CT-15 Comentários nos Roadmaps</td>
@@ -224,7 +224,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
             </ol>
         </td>
         <td>O comentário deve ser inserido e exibido corretamente no roadmap.</td>
-        <td>Brendo W. R.</td>
+        <td>Brendo</td>
     </tr>
 </table>
  
