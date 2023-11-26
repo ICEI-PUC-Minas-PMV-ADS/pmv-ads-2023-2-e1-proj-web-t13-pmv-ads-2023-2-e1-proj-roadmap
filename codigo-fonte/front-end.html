@@ -102,33 +102,33 @@
             <div style="width: 370px;"> 
               <div class="row">
                   
-                <button type="button" class="btn btn-outline-dark fundo_intermediario btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data="7">
-                  HTML - Fundamentos
+                <button class="btn btn-outline-dark fundo_intermediario btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data="7">
+                  JavaScript - Callbacks e Promises
                 </button>
             </div>
             <div class="row mt-2">
               <button class="btn btn-outline-dark fundo_intermediario btn-lg" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data="8">
-                CSS - Fundamentos:
+                JavaScript - Modularização
               </button>
             </div>
             <div class="row mt-2">
               <button class="btn btn-outline-dark fundo_intermediario btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data="9">
-                JavaScript - Fundamentos
+                JavaScript - Testes
               </button>
             </div>
             <div class="row mt-2">
               <button class="btn btn-outline-dark fundo_intermediario btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data="10">
-                DOM - Fundamentos
+                Manipulação de Erros
               </button>
             </div>
             <div class="row mt-2">
               <button class="btn btn-outline-dark fundo_intermediario btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data="11">
-                Design Responsivo
+                JavaScript - ES6
               </button>
             </div>
             <div class="row mt-2">
               <button class="btn btn-outline-dark fundo_intermediario btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data="12">
-                Acessibilidade Javascript
+                Versiona. Semântico Front-end
               </button>
             </div>
             </div>
@@ -156,32 +156,32 @@
                 <div class="row">
                     
                   <button type="button" class="btn btn-outline-dark fundo_avancado btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data="13">
-                    HTML - Fundamentos
+                    Jest
                   </button>
               </div>
               <div class="row mt-2">
                 <button class="btn btn-outline-dark fundo_avancado btn-lg" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" data="14">
-                  CSS - Fundamentos:
+                  Cypress
                 </button>
               </div>
               <div class="row mt-2">
                 <button class="btn btn-outline-dark fundo_avancado btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data="15">
-                  JavaScript - Fundamentos
+                  Conceitos de Orientação a Objetos
                 </button>
               </div>
               <div class="row mt-2">
                 <button class="btn btn-outline-dark fundo_avancado btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data="16">
-                  DOM - Fundamentos
+                  JavaScript - Armazenamento
                 </button>
               </div>
               <div class="row mt-2">
                 <button class="btn btn-outline-dark fundo_avancado btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data="17">
-                  Design Responsivo
+                  Estruturas de Dados
                 </button>
               </div>
               <div class="row mt-2">
                 <button class="btn btn-outline-dark fundo_avancado btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data="18">
-                  Acessibilidade Javascript
+                  GraphQL
                 </button>
               </div>
               </div>
@@ -229,7 +229,8 @@
       ...
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button id="botaoConcluir" onclick="concluirTarefa()" type="button" class="btn btn-secondary" aria-disabled="true" data-bs-dismiss="modal">Concluído</button>
+    
     </div>
         </div>
       </div>
