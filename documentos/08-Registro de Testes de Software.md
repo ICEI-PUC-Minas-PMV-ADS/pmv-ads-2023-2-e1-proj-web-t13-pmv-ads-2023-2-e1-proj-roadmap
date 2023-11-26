@@ -13,10 +13,9 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   Responsável: Thais Bertini
 </li>
 
-D:\TI E DESIGN\Repositorio\Faculdade PUC MINAS\Faculdade Pucminas\pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-roadmap\documentos\CT-12 e CT 13    RF-10 E RF-11    Marcação de Tópicos Estudados.mp4
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-roadmap/assets/102166206/19bb455a-f9a0-493f-8369-606b70de8d6c
 
 
-    
 
   </li>
 <hr>
