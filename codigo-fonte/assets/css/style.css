@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #8B969D;
-    
+
 }
 
 header {
@@ -17,12 +17,12 @@ header {
     font-weight: 600;
 }
 
-.form-container{
+.form-container {
     max-width: 400px;
     padding: 1rem;
 }
 
-.h-100{
+.h-100 {
     height: 100%;
 }
 
@@ -38,28 +38,20 @@ header {
     margin: 50px auto;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #8B969D;
-}
-
 /* incluso o css do sobre*/
 .estiloheader1 {
     text-decoration: none;
     color: white;
 }
-.estilobotao{
+
+.estilobotao {
     size: 8rem;
     height: 4rem;
     font-weight: 600;
     font-size: x-large;
 
 }
+
 .nav-link {
     color: white;
     font-size: larger;
@@ -68,8 +60,68 @@ header {
 .navbar {
     width: 100%;
     align-items: center;
-    justify-content: space-around
-    text-align baseline;
+    justify-content: space-around text-align baseline;
 }
 
+.form-container-comments {
+    max-width: 1000px;
+    padding: 1rem;
 
+    margin: 20px;
+    margin-top: 10%;
+    background-color: white;
+}
+
+/* Estilos para a div do rating */
+.rating {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+/* Estilos para o texto ao lado das estrelas */
+.rating-text {
+    margin-left: 10px;
+    /* Mudei para margem esquerda */
+    flex-direction: row-reverse;
+}
+
+/* Esconde os inputs */
+.rating input {
+    display: none;
+}
+
+/* Estiliza as labels */
+.rating label {
+    color: #7d7b7b;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Estiliza a label quando o input é selecionado */
+.rating input:checked~label {
+    color: #f90;
+    direction: initial;
+}
+
+.negrito1 {
+    font-weight: 600;
+}
+
+.modal-success .modal-content {
+    background-color: #4CAF50;
+    /* Cor verde desejada */
+    color: white;
+    /* Texto em branco para contrastar */
+    border-radius: 10px;
+    /* Borda arredondada para estilizar */
+}
+
+.container-exibicao {
+    justify-content: left;
+}
+
+.maincomments {
+    margin: 90px;
+}
