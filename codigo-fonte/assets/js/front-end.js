@@ -253,4 +253,8 @@ if (exampleModal) {
 
 function concluirTarefa() {
   terminou.push(modalAtual)
+  let quantidadeItens = 18
+  let elementProgresso = document.getElementById("progresso")
+  let porcentagem = Math.trunc(terminou.length * 100 / quantidadeItens) + "%"
+  elementProgresso.style["width"] = elementProgresso.innerHTML = porcentagem
 }
