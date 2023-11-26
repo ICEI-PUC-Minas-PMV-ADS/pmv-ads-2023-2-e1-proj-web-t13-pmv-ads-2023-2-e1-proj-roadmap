@@ -28,6 +28,7 @@ if (exampleModal) {
     let listItens = [];
     
 
+        
     switch (recipient) {
       case "1":
         modalAtual = title = "Dart - Fundamentos";
