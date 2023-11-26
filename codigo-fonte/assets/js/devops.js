@@ -203,6 +203,7 @@ if (exampleModal) {
         break;
       }
 
+
     if (terminou.includes(modalAtual)){
       document.getElementById("botaoConcluir").classList.add("disabled")
     }
