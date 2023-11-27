@@ -27,3 +27,29 @@
 .btn-primary {
     border: none; /* Remover a borda azul */
 }
+
+
+.search-container {
+    text-align: center;
+    margin-top: 20px; /* Adicione margem para espaçamento */
+}
+
+.search-container input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
