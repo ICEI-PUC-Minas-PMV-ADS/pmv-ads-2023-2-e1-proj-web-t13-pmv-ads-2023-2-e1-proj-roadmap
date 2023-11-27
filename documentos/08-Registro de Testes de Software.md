@@ -6,26 +6,27 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 <ol>
 
- <li>
+ <li></li>
 
 <hr>
 
- <li>
+ <li></li>
 
 <hr>
 
  <li>CT-03 | A aplicação deve exibir uma lista de tecnologias para o usuário escolher sobre qual ele quer visualizar o roadmap.
  Responsável: Brendo
+
  ![](<ct-03.png>)
+ </li>
 
 <hr>
 
 <li>CT-04 | Verificar se, ao selecionar uma tecnologia, o roadmap correspondente é corretamente exibido.
  Responsável: Brendo
- <video width="320" height="240" controls>
-   <source src="documentos\videoct-04.mp4" type="video/mp4">
-   Seu navegador não suporta a exibição deste vídeo.
- </video>
+
+
+![](videoct04.mp4)
 </li>
 
  <hr>
