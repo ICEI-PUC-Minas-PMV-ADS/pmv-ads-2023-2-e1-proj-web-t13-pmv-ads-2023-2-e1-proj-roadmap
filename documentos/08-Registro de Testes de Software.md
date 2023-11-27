@@ -17,7 +17,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
  <li>CT-03 | A aplicação deve exibir uma lista de tecnologias para o usuário escolher sobre qual ele quer visualizar o roadmap.
  Responsável: Brendo
 
- ![](<ct-03.png>)
+ ![](<ct03.png>)
  </li>
 
 <hr>
