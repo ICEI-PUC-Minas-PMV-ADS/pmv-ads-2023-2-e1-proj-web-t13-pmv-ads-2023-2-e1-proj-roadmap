@@ -195,6 +195,125 @@
       </div>
     </div>
 
+    <main class="maincomments">
+      <form class="row g-3 needs-validation w-100 m-auto form-container-comments pb-5" novalidate>
+    
+        <div class="mb-3 mt-5">
+          <span>
+            <h4 class="negrito1">Compartilhe seu comentário e avaliação conosco!</h4>
+          </span>
+        </div>
+    
+    
+        <div class="mb-3">
+          <input type="text" class="form-control input-text" id="nome" placeholder="Nome" required>
+          <div class="valid-feedback">
+            Ok!
+          </div>
+          <div class="invalid-feedback">
+            O nome é obrigatório
+          </div>
+        </div>
+        <div>
+          <textarea name="" rows="4" class="form-control" placeholder="Mensagem" id="mensagem" required></textarea>
+          <div class="valid-feedback">
+            Ok!
+          </div>
+          <div class="invalid-feedback">
+            A mensagem é obrigatória
+          </div>
+        </div>
+    
+        <div class="mb-3">
+          <button class="btn m-0 btn-lg btn-secondary bg-dark" type="submit">Enviar</button>
+        </div>
+    
+        <div class="rating">
+          <input type="radio" id="star1" name="rating" value="1" />
+          <label for="star1" title="1 stars"><i class="fa fa-star"></i></label>
+          <input type="radio" id="star2" name="rating" value="2" />
+          <label for="star2" title="2 stars"><i class="fa fa-star"></i></label>
+          <input type="radio" id="star3" name="rating" value="3" />
+          <label for="star3" title="3 stars"><i class="fa fa-star"></i></label>
+          <input type="radio" id="star4" name="rating" value="4" />
+          <label for="star4" title="4 stars"><i class="fa fa-star"></i></label>
+          <input type="radio" id="star5" name="rating" value="5" />
+          <label for="star5" title="5 star"><i class="fa fa-star"></i></label>
+          <span class="rating-text">Avalie sua experiência: </span>
+    
+        </div>
+    
+    
+          <!-- Seção de Comentários -->
+          <div class="container-exibicao mt-5">
+            <div class="row justify-content-left">
+              <div class="col-md-8">
+                <h4 class="negrito1">Comentários</h4>
+                <div id="commentSection">
+                  <!-- Aqui serão exibidos os comentários -->
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        <!--div responsavel pelo modal comments-->
+        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-success">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Sucesso!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Seu comentário e avaliação foram registrados com sucesso!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary text-dark bg-light" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+      <script>
+        // Seleciona o formulário de comentários
+        const form = document.querySelector('.form-container-comments');
+    
+        // Adiciona um listener para o evento de envio do formulário
+        form.addEventListener('submit', function (event) {
+          // Previne o comportamento padrão do envio do formulário
+          event.preventDefault();
+    
+          // Verifica se todos os campos obrigatórios estão preenchidos
+          if (form.checkValidity()) {
+            // Exibe o modal de sucesso apenas se os campos estiverem preenchidos
+            const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+            successModal.show();
+    
+            // Adiciona o comentário na seção de comentários
+            adicionarComentario();
+          } else {
+            // Se os campos não estiverem preenchidos, mostra as mensagens de erro
+            form.classList.add('was-validated');
+          }
+        });
+    
+        // Função para adicionar comentários
+        function adicionarComentario() {
+          const nome = document.getElementById('nome').value;
+          const mensagem = document.getElementById('mensagem').value;
+    
+          const commentSection = document.getElementById('commentSection');
+          const novoComentario = document.createElement('div');
+          novoComentario.innerHTML = `<strong>${nome}</strong>: ${mensagem}`;
+          commentSection.appendChild(novoComentario);
+    
+          // Limpa os campos após adicionar o comentário
+          document.getElementById('nome').value = '';
+          document.getElementById('mensagem').value = '';
+        }
+      </script>
+
     <footer class="footer">
       <div class="logo">
           <h2>
