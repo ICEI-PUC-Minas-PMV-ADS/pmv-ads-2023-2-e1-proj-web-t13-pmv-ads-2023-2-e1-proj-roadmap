@@ -108,3 +108,20 @@ header {
     color: white; /* Texto em branco para contrastar */
     border-radius: 10px; /* Borda arredondada para estilizar */
   }
+
+#loginUrl {
+    color: inherit;
+    text-decoration: none;
+}
+
+.dropdown-menu.login {
+    background-color: #6c757d;
+}
+
+.dropdown-item.login {
+    color: #ffffff;
+}
+
+.dropdown-menu.login > li > a:hover {
+    background-color: #6c757d;
+}
