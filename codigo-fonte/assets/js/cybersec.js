@@ -37,7 +37,7 @@ if (exampleModal) {
         listItens = [
           "Conhecer os principais comandos",
         ];
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://learn.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows'
         break;
       case "2":
         modalAtual = title = "Técnicas Hacker";
@@ -45,19 +45,19 @@ if (exampleModal) {
         listItens = [
           "Usar técnicas de invasores para avaliar a segurança de uma rede de destino, avaliando protocolos e endpoints populares para Windows, Linux e destinos de nuvem.",
         ]
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://www.univem.edu.br/semanati2008/palestras/Hackers.pdf'
         break;
       case "3":
         modalAtual = title = "Criptografia - Fundamentos";
         content = "Criptografia em segurança virtual é a conversão de dados de um formato legível em um formato codificado. Os dados criptografados só podem ser lidos ou processados ​​depois de serem descriptografados.";
         listItens = [];
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://www.alura.com.br/artigos/criptografia-diferencas-simetrica-assimetrica-homomorfica'
         break;
       case "4":
         modalAtual = title = "Análise de Vulnerabilidades";
         content = "Técnicas e táticas de framework de vários serviços e ferramentas que oferece uma solução de varredura e gerenciamento de vulnerabilidade.";
         listItens = [];
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://www.microserviceit.com.br/analise-vulnerabilidade/'
         break;
       case "5":
         modalAtual = title = "Framework de Cibersegurança";
@@ -65,18 +65,19 @@ if (exampleModal) {
         listItens = [
           "Embora o Framework de Cibersegurança não seja uma abordagem única para gerenciar riscos de segurança cibernética para organizações, em última análise, visa reduzir e gerenciar melhor esses riscos. Como tal, este guia destina-se a toda e qualquer organização, independentemente do setor ou tamanho.",
         ];        
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://www.securitybox.com.br/noticia/framework-de-politicas-de-seguranca-da-informacao/#:~:text=Um%20framework%20de%20seguran%C3%A7a%20da,informa%C3%A7%C3%A3o%20em%20um%20ambiente%20corporativo.'
         break;
       case "6":
         modalAtual = title = "Investigação Digital - Fundamentos";
         content = "Investigação Digital é o uso da ciência para investigar crimes digfitais e determinar fatos, que surgiu a partir do uso e disseminação de sistemas digitais, como computadores e smartphones.";
         listItens = [] 
+        saibaMaisLink = 'https://monografias.brasilescola.uol.com.br/computacao/investigacao-digital.htm'
         break;
       case "7":
         modalAtual = title = "Segurança de Endpoint";
         content = "A segurança de endpoint, ou proteção de endpoint, é a abordagem de segurança cibernética para defender endpoints como desktops, laptops e dispositivos móveis contra atividades maliciosas.";
         listItens = [] 
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://aws.amazon.com/pt/what-is/endpoint-security/'
         break;
       case "8":
         modalAtual = title = "Gerenciamento de Dispositivos Móveis";
@@ -84,17 +85,19 @@ if (exampleModal) {
         listItens = [
           "O gerenciamento de dispositivos móveis é uma parte importante do gerenciamento de mobilidade empresarial e do gerenciamento de endpoints, especialmente à medida que mais empresas adotam políticas de BYOD (traga seu próprio dispositivo) que permitem que os funcionários acessem dados, arquivos e aplicativos da empresa em seus dispositivos pessoais.",
         ] 
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://www.ibm.com/br-pt/topics/mobile-device-management'
         break;
       case "9":
         modalAtual = title = "Metasploit - Ataque e Análise";
         content = "Metasploit é a estrutura de teste de penetração mais usada do mundo.";
         listItens = [ ] 
+        saibaMaisLink = 'https://medium.com/@nickhandy/kali-linux-metasploit-getting-started-with-pen-testing-89d28944097b'
         break;
       case "10":
         modalAtual = title = "Web application - Segurança";
         content = "A segurança de aplicativos da Web (também conhecida como Web AppSec) é a ideia de criar sites para funcionar conforme o esperado, mesmo quando estão sob ataque. O conceito envolve uma coleção de controles de segurança projetados em um aplicativo da Web para proteger seus ativos de agentes potencialmente maliciosos.";
         listItens = [] 
+        saibaMaisLink = 'https://medium.com/quick-code/how-to-secure-web-apps-a-web-app-security-checklist-bb27cf049d1d'
         break;
       case "11":
         modalAtual = title = "Web application - Vulnerabilidade";
@@ -102,6 +105,7 @@ if (exampleModal) {
         listItens = [
           'Essas vulnerabilidades não são iguais a outros tipos comuns de vulnerabilidades, como rede ou ativo. Eles surgem porque os aplicativos da Web precisam interagir com vários usuários em várias redes, e esse nível de acessibilidade é facilmente aproveitado pelos hackers.',
           ] 
+          saibaMaisLink = 'https://medium.com/@talhakhalid101/devsecops-basics-where-to-start-aa7babee4ac4'
         break;
       case "12":
         modalAtual = title = "SIEM e SOAR";
@@ -109,16 +113,19 @@ if (exampleModal) {
         listItens = [
           "Security Orchestration, Automation, and Response (SOAR) irá ajudar com o gerenciamento de ameaças e vulnerabilidades, resposta a incidentes de segurança e automação da operação de segurança."
         ] 
-        break;
+        saibaMaisLink = 'https://www.softwall.com.br/blog/siem-soar-principais-diferencas/'
+        break;  
       case "13":
         modalAtual = title = "Arquitetura de Segurança de Rede";
         content = "A segurança de rede prepara você para tarefas como proteger os dados da empresa contra roubo, danos, interrupções e outros. Um profissional da área irá projetar e implementar auma arquitetura segura para dispositivos de rede, bem como oferecer suporte de segurança e garantir a integridade deles.";
         listItens = []
+        saibaMaisLink = 'https://www.youtube.com/watch?v=z5W8krdHkqA&ab_channel=C%C3%A1ssioBatistaPereira'
         break;
       case "14":
         modalAtual = title = "Análise de Malware";
         content = "A análise de malware é o processo de compreensão do comportamento e da finalidade de um arquivo ou URL suspeito. A saída da análise ajuda na detecção e mitigação da ameaça potencial.";
-        listItens = [] 
+        listItens = []
+        saibaMaisLink = 'https://www.youtube.com/playlist?list=PLIfZMtpPYFP7281QqcwivCTuKeelXxg7G' 
         break;
       case "15":
         modalAtual = title = "Segurança de Aplicações de Software";
@@ -126,21 +133,25 @@ if (exampleModal) {
         listItens = [
         " Ele abrange as considerações de segurança que ocorrem durante o desenvolvimento e o design de aplicativos, mas também envolve sistemas e abordagens para proteger os aplicativos depois que eles são implantados.",
         ] 
+        saibaMaisLink = 'https://medium.com/@SW_Integrity/application-security-vs-software-security-whats-the-difference-3d345413927c'
         break;
       case "16":
         modalAtual = title = "Arquitetura Zero Trust";
         content = "DevSecOps significa desenvolvimento, segurança e operações. É uma abordagem à cultura, automação e design de plataforma que integra a segurança como uma responsabilidade compartilhada durante todo o ciclo de vida da TI.";
-        listItens = [] 
+        listItens = []
+        saibaMaisLink = 'https://www.youtube.com/watch?v=T_J3_R7tz1Q&ab_channel=SegInfoBrasil' 
         break;
       case "17":
         modalAtual = title = "Segurança na Nuvem";
         content = "A segurança na nuvem, também conhecida como segurança da computação em nuvem, é um conjunto de medidas de segurança projetadas para proteger a infraestrutura, os aplicativos e os dados baseados em nuvem. Essas medidas garantem a autenticação de usuários e dispositivos, controle de acesso a dados e recursos e proteção de privacidade de dados. Eles também suportam a conformidade de dados regulatórios.";
         listItens = [] 
+        saibaMaisLink = 'https://www.dcomp.ufscar.br/verdi/topicosCloud/Artigo-Seguranca-Cloud.pdf'
         break;
       case "18":
         modalAtual = title = "Segurança Contínua - Automação e Monitoramento";
         content = "O monitoramento contínuo de segurança é uma abordagem de segurança que envolve a automatização de uma parte significativa do gerenciamento de segurança. Isso inclui detecção de vulnerabilidades, monitoramento de configurações de nuvem, identidades e seus direitos e segurança de dados.";
         listItens = [] 
+        saibaMaisLink = 'https://www.industria40.ind.br/artigo/23414-2023-ano-automacao-seguranca-digital'
         break;
       }
     
