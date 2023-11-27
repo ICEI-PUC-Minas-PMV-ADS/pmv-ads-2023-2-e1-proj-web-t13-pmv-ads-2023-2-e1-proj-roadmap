@@ -5,6 +5,30 @@ Pré-requisitos [Plano de Testes de Software](https://github.com/ICEI-PUC-Minas-
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 <ol>
+
+ <li>
+
+<hr>
+
+ <li>
+
+<hr>
+
+ <li>CT-03 | A aplicação deve exibir uma lista de tecnologias para o usuário escolher sobre qual ele quer visualizar o roadmap.
+ Responsável: Brendo
+ ![](<ct-03.png>)
+
+<hr>
+
+<li>CT-04 | Verificar se, ao selecionar uma tecnologia, o roadmap correspondente é corretamente exibido.
+ Responsável: Brendo
+ <video width="320" height="240" controls>
+   <source src="documentos\videoct-04.mp4" type="video/mp4">
+   Seu navegador não suporta a exibição deste vídeo.
+ </video>
+</li>
+
+ <hr>
   <li>CT-12 | RF-10 - Marcação de Tópicos Estudados: Verificar se os tópicos estudados podem ser marcados na aplicação.
   Responsável: Thais Bertini
   </li>
@@ -15,11 +39,9 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-roadmap/assets/102166206/19bb455a-f9a0-493f-8369-606b70de8d6c
 
-
-
   </li>
 <hr>
-  <li> CT-14, CT-15: Verificar se é possível realizar comentários nos roadmaps, Verificar se a funcionalidade de avaliação dos roadmaps está funcionando corretamente.
+  <li> CT-14, CT-15 | Verificar se é possível realizar comentários nos roadmaps, Verificar se a funcionalidade de avaliação dos roadmaps está funcionando corretamente.
   Responsável: Brendo.
 
   ![](<teste-barra-comentarios.png>)
