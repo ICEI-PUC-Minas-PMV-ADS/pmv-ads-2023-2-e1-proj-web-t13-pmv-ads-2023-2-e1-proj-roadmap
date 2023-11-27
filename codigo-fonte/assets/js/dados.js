@@ -26,6 +26,9 @@ if (exampleModal) {
     let title = "";
     let content = "";
     let listItens = [];
+
+    let botaoSaibaMais = document.getElementById('linkSaibaMais')
+    let saibaMaisLink;
     
     switch (recipient) {
       case "1":
@@ -38,6 +41,7 @@ if (exampleModal) {
           "Saber o que são variáveis categóricas nominais e ordinais",
           "Explorar os dados em Python com as bibliotecas Pandas, Matplotlib, Seaborn e Numpy",
         ];
+        saibaMaisLink = 'https://aws.amazon.com/pt/what-is/data-science/?nc1=h_ls'
         break;
       case "2":
         modalAtual = title = "Feature Engineering";
@@ -49,6 +53,7 @@ if (exampleModal) {
           "Melhorar a precisão do modelo para novos dados",
           "Selecionar e criar features utilizando as bibliotecas Pandas e Scikit-learn",
         ]
+        saibaMaisLink = 'https://ricardomatsumura.medium.com/engenharia-de-atributos-87370c31d0eb'
         break;
       case "3":
         modalAtual = title = "Extração e Tratamento de Dados";
@@ -58,6 +63,7 @@ if (exampleModal) {
           "Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados",
           "Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados",
         ];
+        saibaMaisLink = 'https://medium.com/data-hackers/tratamento-e-transforma%C3%A7%C3%A3o-de-dados-nan-uma-vis%C3%A3o-geral-e-pr%C3%A1tica-54efa9fc7a98'
         break;
       case "4":
         modalAtual = title = "Python para Ciência de Dados";
@@ -71,6 +77,7 @@ if (exampleModal) {
           "Conhecer a biblioteca NumPy",
           "Conhecer a biblioteca Pandas`",
         ];
+        saibaMaisLink = 'https://medium.com/data-hackers/primeiros-passos-em-data-science-utilizando-python-para-an%C3%A1lise-de-dados-823436432b28'
         break;
       case "5":
         modalAtual = title = "Jupyter & Colab notebooks";
@@ -79,7 +86,8 @@ if (exampleModal) {
           "Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código",
           "O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias",
           "Essas ferramentas facilitam o compartilhamento de projetos entre o time",
-        ];        
+        ];
+        saibaMaisLink = 'https://jupyter.org/'        
         break;
       case "6":
         modalAtual = title = "R para Ciência de Dados";
@@ -91,7 +99,7 @@ if (exampleModal) {
           'Tirar sumários estatísticos',
           'Aprender modelos preditivos no R',
         ] 
-
+        saibaMaisLink = 'https://medium.com/rladiesbh/introdu%C3%A7%C3%A3o-%C3%A0-programa%C3%A7%C3%A3o-em-r-d0193eb4e458'
         break;
       case "7":
         modalAtual = title = "Machine Learning - Fundamentos";
@@ -103,6 +111,7 @@ if (exampleModal) {
           "Utilizar algoritmos de regressão",
           "Utilizar o Scikit-learn para criar modelos de machine learning",
         ] 
+        saibaMaisLink = 'https://aws.amazon.com/pt/what-is/machine-learning/'
         break;
       case "8":
         modalAtual = title = "Machine Learning - Avaliação de Modelos";
@@ -112,6 +121,7 @@ if (exampleModal) {
           "Utilizar um pipeline para treino e validação",
           "Conhecer as principais métricas de avaliação de modelos de machine learning",
         ] 
+        saibaMaisLink = 'https://docs.aws.amazon.com/pt_br/machine-learning/latest/dg/evaluating_models.html'
         break;
       case "9":
         modalAtual = title = "SQL - Fundamentos";
@@ -125,6 +135,7 @@ if (exampleModal) {
           "Usar JOIN para conectar os dados de múltiplas tabelas",
           "Conhecer as cláusulas (FROM, ORDER BY, etc)",
         ] 
+        saibaMaisLink = 'https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a'
         break;
       case "10":
         modalAtual = title = "Web Scraping";
@@ -135,6 +146,7 @@ if (exampleModal) {
           "Acessar o conteúdo e atributos das tags HTML",
           "Construir datasets com os resultados das raspagens",
         ] 
+        saibaMaisLink = 'https://medium.com/data-hackers/tutorial-para-iniciantes-web-scraping-em-python-bb71778ed40c'
         break;
       case "11":
         modalAtual = title = "Machine Learning - Aprendizado Não Supervisionado";
@@ -148,6 +160,7 @@ if (exampleModal) {
           'Entender a matemática por trás das métricas de validação Silhouette, Davies Bouldin e Calinski Harabasz',
           'Conhecer técnicas de redução de dimensionalidade',
           ] 
+          saibaMaisLink = 'https://kozyrk.medium.com/portuguese-unsupervised-learning-c47d48c8e31'
         break;
       case "12":
         modalAtual = title = "Testes Estatísticos";
@@ -160,6 +173,7 @@ if (exampleModal) {
           "Propor modelos matemáticos para entender um dado problema",
           "Construir mapas de cores para auxiliar a interpretação dos dados"
         ] 
+        saibaMaisLink = 'https://icd-ufmg.github.io/10-ab/'
         break;
       case "13":
         modalAtual = title = "Deep Learning";
@@ -173,6 +187,7 @@ if (exampleModal) {
           "Redes neurais para regressão",
           "Entender o conceito de Redes recorrentes",
           ]
+          saibaMaisLink = 'https://www.ibm.com/br-pt/cloud'
         break;
       case "14":
         modalAtual = title = "Aprendizado por Reforço";
@@ -184,6 +199,7 @@ if (exampleModal) {
           "Entender o conceito de Retorno",
           "Utilizar o algoritmo Q-learning",
           ] 
+          saibaMaisLink = 'https://acervolima.com/aprendizagem-por-reforco/'
         break;
       case "15":
         modalAtual = title = "Processamento de Linguagem Natural";
@@ -200,6 +216,7 @@ if (exampleModal) {
         "Conhecer o Word2Vec",
         "Combinar vetores de palavras para representar textos e classificá-los",
         ] 
+        saibaMaisLink = 'https://medium.com/ensina-ai/introdu%C3%A7%C3%A3o-a-processamento-de-linguagem-natural-174936c096b'
         break;
       case "16":
         modalAtual = title = "Big Data e Engenharia de Dados";
@@ -213,6 +230,7 @@ if (exampleModal) {
           "Interagir com servidores na nuvem",
           "Criar aplicações Spark",
         ] 
+        saibaMaisLink = 'https://www.oracle.com/br/big-data/what-is-big-data/'
         break;
       case "17":
         modalAtual = title = "Git e GitHub - Fundamentos";
@@ -226,6 +244,7 @@ if (exampleModal) {
           "Criar branches e pul requests",
           "Lidar com merge e conflitos",
         ] 
+        saibaMaisLink = 'https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages'
         break;
       case "18":
         modalAtual = title = "Linux - Fundamentos";
@@ -239,6 +258,7 @@ if (exampleModal) {
           "Gerenciar pacotes",
           "Realizar comunicação remota com o SSH e SCP",
         ] 
+        saibaMaisLink = 'https://pllara.medium.com/comandos-linux-4db7307c17b7'
         break;
       }
 
@@ -272,6 +292,7 @@ if (exampleModal) {
     modalBodyInput.textContent = content;
 
     document.getElementById("contentList").appendChild(ul);
+    botaoSaibaMais.innerHTML = ` <a href="${saibaMaisLink}" target="__blank">Saiba mais</a>`
   });
 }
 
