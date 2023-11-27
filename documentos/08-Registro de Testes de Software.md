@@ -43,6 +43,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads
 <li>
 CT-06 | RF-04 - Redirecionamento para Material Externo:	Garantir que os tópicos do roadmap redirecionem para materiais externos corretos.
 
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-roadmap/assets/102166206/fba8fc37-f80f-4588-922a-28640de123fe
+
+
 </li>
 <hr>
 
