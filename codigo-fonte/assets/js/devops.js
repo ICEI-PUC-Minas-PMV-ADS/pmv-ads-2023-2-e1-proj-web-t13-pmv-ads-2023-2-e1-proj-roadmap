@@ -43,7 +43,7 @@ if (exampleModal) {
           "Gerenciar pacotes",
           "Realizar comunicação remota com o SSH e SCP",
         ];
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://www.youtube.com/watch?v=rs_yshFGu8E&themeRefresh=1'
         break;
       case "2":
         modalAtual = title = "Shell Scripting";
@@ -53,7 +53,7 @@ if (exampleModal) {
           "Automatizar a configuração e instalação de aplicações em novos sistemas",
           "Usar o PowerShell",
         ]
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://www.youtube.com/watch?v=SPwyp2NG-bE'
         break;
       case "3":
         modalAtual = title = "Redes de Computadores - Fundamentos";
@@ -65,7 +65,7 @@ if (exampleModal) {
           "Saber as diferenças entre as camadas de rede",
           "Saber o que é servidor web, proxy reverso e load balancer",
         ];
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://medium.com/code-breaker/redes-de-computadores-sabendo-o-b%C3%A1sico-intro-1a7d5653e118'
         break;
       case "4":
         modalAtual = title = "Linha de comando - Fundamentos";
@@ -73,7 +73,7 @@ if (exampleModal) {
         listItens = [
           "Conhecer os principais comandos",
         ];
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://www.youtube.com/watch?v=rKBqXJZocYk'
         break;
       case "5":
         modalAtual = title = "HTTP - Fundamentos";
@@ -84,7 +84,8 @@ if (exampleModal) {
           "Saber fazer uma requisição HTTP na linha de comando com WGET",
           "Baixar uma imagem com WGET",
           "Fazer um post",
-        ];        
+        ];  
+        saibaMaisLink = 'https://www.youtube.com/watch?v=kncOJZrnkTg'      
         break;
       case "6":
         modalAtual = title = "Cloud - Fundamentos";
@@ -94,6 +95,7 @@ if (exampleModal) {
           "Conhecer os maiores provedores de cloud",
           "Especializar-se em algum provedor",
         ] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=f-oVzkvMwnE'
         break;
       case "7":
         modalAtual = title = "Contêineres";
@@ -107,6 +109,7 @@ if (exampleModal) {
           "Conhecer a plataforma Docker",
           "Conhecer Kubernetes",
         ] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=-pUZBovqRcU'
         break;
       case "8":
         modalAtual = title = "Infraestrutura como código (IaC)";
@@ -119,6 +122,7 @@ if (exampleModal) {
           "Conhecer o Ansible",
           "Conhecer o Terraform",
         ] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=qd9hrsN0w2A'
         break;
       case "9":
         modalAtual = title = "Entrega e integração contínuas (CI/CD)";
@@ -129,6 +133,7 @@ if (exampleModal) {
           "Realizar a entrega de atualizações de forma automatica e com segurança.",
           "Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.",
         ] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=AZtTd3pFVTY'
         break;
       case "10":
         modalAtual = title = "SQL - Fundamentos";
@@ -142,6 +147,7 @@ if (exampleModal) {
           "Usar JOIN para conectar os dados de múltiplas tabelas",
           "Conhecer as cláusulas (FROM, ORDER BY, etc)",
         ] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=cIUTAyomVPQ&feature=youtu.be'
         break;
       case "11":
         modalAtual = title = "Estratégias de SEO";
@@ -152,6 +158,7 @@ if (exampleModal) {
           'Conhecer os fatores de rankeamento',
           'Fazer Link Building',
           ] 
+          saibaMaisLink = 'https://www.youtube.com/watch?v=qnLq50AM9Rk'
         break;
       case "12":
         modalAtual = title = "Design Patterns";
@@ -159,6 +166,7 @@ if (exampleModal) {
         listItens = [
           "Conhecer e aplicar os principais Design Patterns"
         ] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=tv-_1er1mWI&t=2s'
         break;
       case "13":
         modalAtual = title = "Engenharia de Confiabilidade de Sites (SRE)";
@@ -167,6 +175,7 @@ if (exampleModal) {
           "Coletar métricas sobre a sáude da aplicação e da máquina em que ela se encontra",
           "Montar dashboards para analisar todas as informações coletadas",
           ]
+          saibaMaisLink = 'https://www.youtube.com/watch?v=E__bROyybgc'
         break;
       case "14":
         modalAtual = title = "Firewalls, IDS e IPS";
@@ -176,6 +185,7 @@ if (exampleModal) {
           "IDS são dispositivos de sistema de monitoramento passivo que monitoram o tráfego de rede à medida que viajam pela rede, comparam padrões de assinatura, e acionar um alarme se for detectada atividade suspeita ou ameaça de segurança conhecida.",
           "O IPS é um dispositivo ativo que impede ataques, bloqueando-os.",
           ] 
+          saibaMaisLink = 'https://www.youtube.com/watch?v=_xIuY_3EQ2o'
         break;
       case "15":
         modalAtual = title = "Internet das Coisas (IoT) - Fundamentos";
@@ -183,11 +193,13 @@ if (exampleModal) {
         listItens = [
         "Como rodar seu primeiro sistema em um Arduino",
         ] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=2TXOZFmhGGo'
         break;
       case "16":
         modalAtual = title = "DevSecOps";
         content = "DevSecOps significa desenvolvimento, segurança e operações. É uma abordagem à cultura, automação e design de plataforma que integra a segurança como uma responsabilidade compartilhada durante todo o ciclo de vida da TI.";
         listItens = [] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=Crm6IuKnsng&ab_channel=SobrinhodeTI'
         break;
       case "17":
         modalAtual = title = "Arquitetura de Microsserviços";
@@ -197,6 +209,7 @@ if (exampleModal) {
           "Realizar a comunicação usando APIs",
           "Melhorar a escalabilidade de um sistema",
         ] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=eN8dFfTrEtQ'
         break;
       case "18":
         modalAtual = title = "JSON";
@@ -207,6 +220,7 @@ if (exampleModal) {
           "Transformar uma string em objeto",
           "Manipular um objeto",
         ] 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=UE_mKZGvl88&t=1s'
         break;
       }
 
