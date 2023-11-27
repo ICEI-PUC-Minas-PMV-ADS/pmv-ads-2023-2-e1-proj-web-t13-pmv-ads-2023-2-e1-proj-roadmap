@@ -27,6 +27,8 @@ if (exampleModal) {
     let content = "";
     let listItens = [];
     
+    let botaoSaibaMais = document.getElementById('linkSaibaMais')
+    let saibaMaisLink;
     
     switch (recipient) {
       case "1":
@@ -35,6 +37,7 @@ if (exampleModal) {
         listItens = [
           "Conhecer os principais comandos",
         ];
+        saibaMaisLink = ''
         break;
       case "2":
         modalAtual = title = "Técnicas Hacker";
@@ -42,16 +45,19 @@ if (exampleModal) {
         listItens = [
           "Usar técnicas de invasores para avaliar a segurança de uma rede de destino, avaliando protocolos e endpoints populares para Windows, Linux e destinos de nuvem.",
         ]
+        saibaMaisLink = ''
         break;
       case "3":
         modalAtual = title = "Criptografia - Fundamentos";
         content = "Criptografia em segurança virtual é a conversão de dados de um formato legível em um formato codificado. Os dados criptografados só podem ser lidos ou processados ​​depois de serem descriptografados.";
         listItens = [];
+        saibaMaisLink = ''
         break;
       case "4":
         modalAtual = title = "Análise de Vulnerabilidades";
         content = "Técnicas e táticas de framework de vários serviços e ferramentas que oferece uma solução de varredura e gerenciamento de vulnerabilidade.";
         listItens = [];
+        saibaMaisLink = ''
         break;
       case "5":
         modalAtual = title = "Framework de Cibersegurança";
@@ -59,6 +65,7 @@ if (exampleModal) {
         listItens = [
           "Embora o Framework de Cibersegurança não seja uma abordagem única para gerenciar riscos de segurança cibernética para organizações, em última análise, visa reduzir e gerenciar melhor esses riscos. Como tal, este guia destina-se a toda e qualquer organização, independentemente do setor ou tamanho.",
         ];        
+        saibaMaisLink = ''
         break;
       case "6":
         modalAtual = title = "Investigação Digital - Fundamentos";
@@ -69,6 +76,7 @@ if (exampleModal) {
         modalAtual = title = "Segurança de Endpoint";
         content = "A segurança de endpoint, ou proteção de endpoint, é a abordagem de segurança cibernética para defender endpoints como desktops, laptops e dispositivos móveis contra atividades maliciosas.";
         listItens = [] 
+        saibaMaisLink = ''
         break;
       case "8":
         modalAtual = title = "Gerenciamento de Dispositivos Móveis";
@@ -76,6 +84,7 @@ if (exampleModal) {
         listItens = [
           "O gerenciamento de dispositivos móveis é uma parte importante do gerenciamento de mobilidade empresarial e do gerenciamento de endpoints, especialmente à medida que mais empresas adotam políticas de BYOD (traga seu próprio dispositivo) que permitem que os funcionários acessem dados, arquivos e aplicativos da empresa em seus dispositivos pessoais.",
         ] 
+        saibaMaisLink = ''
         break;
       case "9":
         modalAtual = title = "Metasploit - Ataque e Análise";
@@ -164,6 +173,7 @@ if (exampleModal) {
     modalBodyInput.textContent = content;
 
     document.getElementById("contentList").appendChild(ul);
+    botaoSaibaMais.innerHTML = ` <a href="${saibaMaisLink}" target="__blank">Saiba mais</a>`
   });
 }
 
