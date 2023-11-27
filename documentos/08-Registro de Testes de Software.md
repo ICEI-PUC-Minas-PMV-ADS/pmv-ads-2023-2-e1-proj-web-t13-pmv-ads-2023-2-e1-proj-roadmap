@@ -25,8 +25,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 <li>CT-04 | Verificar se, ao selecionar uma tecnologia, o roadmap correspondente é corretamente exibido.
  Responsável: Brendo
 
-
-![](videoct04.mp4)
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-roadmap/assets/102166206/118b77a4-5c93-45d5-be25-5306805fb4a3
 </li>
 
  <hr>
