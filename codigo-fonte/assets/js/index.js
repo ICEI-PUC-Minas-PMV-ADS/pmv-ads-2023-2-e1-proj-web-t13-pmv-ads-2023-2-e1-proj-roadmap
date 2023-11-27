@@ -5,7 +5,7 @@ if(localStorage.getItem('logado')) {
 
     let newBtnLogin = `
     <div class="dropdown">
-        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary btn-lg dropdown-toggle estilobotao" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             ${logado.nome}
         </button>
         <ul class="dropdown-menu login">
