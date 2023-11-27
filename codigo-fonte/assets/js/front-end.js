@@ -45,6 +45,7 @@ if (exampleModal) {
           "Conectar com um arquivo de CSS",
           "Criar uma tabela",
           "Adicionar IDs e classes",
+          
         ];
         break;
       case "2":
@@ -253,4 +254,8 @@ if (exampleModal) {
 
 function concluirTarefa() {
   terminou.push(modalAtual)
+  let quantidadeItens = 18
+  let elementProgresso = document.getElementById("progresso")
+  let porcentagem = Math.trunc(terminou.length * 100 / quantidadeItens) + "%"
+  elementProgresso.style["width"] = elementProgresso.innerHTML = porcentagem
 }

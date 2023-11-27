@@ -13,7 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px; /* Adicionei uma margem inferior para separar dos conteúdos abaixo */
+    margin-bottom: 150px; /* Adicionei uma margem inferior para separar dos conteúdos abaixo */
 }
 
 .button-container .btn {

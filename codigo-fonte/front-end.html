@@ -18,32 +18,34 @@
 <body>
   <header class="header">
     <nav class="navbar navbar-expand-lg bg-trasparent-body-tertiary">
-      <div class="container-fluid">
-        <a href="home.html">
-          <img src="./assets/images/logo.png" alt="Logo" height="50px" width="185">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="sobre.html">Sobre-nós</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contato.html">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="suporte.html">Suporte</a>
-            </li>
-          </ul>
-          <button type="button" class="btn btn-secondary btn-lg" id="login-btn"><a href="cadastro.html" id="loginUrl" Login>Registar-se / Login</a></button>
+        <div class="container-fluid">
+            <a href="home.html">
+                <img src="./assets/images/logo.png" alt="Logo" height="50px" width="185">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link estiloheader1" href="sobre.html">Sobre-nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link estiloheader1" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link estiloheader1" href="suporte.html">Suporte</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-secondary btn-lg estilobotao" id="login-btn"><a class="estiloheader1" href="cadastro.html" id="loginUrl" Login>Registar-se / Login</a></button>
+            </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+</header>
 
+<div class="progress">
+  <div class="progress-bar bg-info" id="progresso" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+</div>
   <div class="d-flex justify-content-center my-5">
     <h1>Front-End</h1>
   </div>
@@ -206,18 +208,8 @@
     </div>
   </div>
 
-  <!-- Seção de Comentários -->
-<div class="container mt-5">
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <h4 class="negrito1">Comentários</h4>
-      <div id="commentSection">
-        <!-- Aqui serão exibidos os comentários -->
-      </div>
-    </div>
-  </div>
-</div>
 
+<main class="maincomments">
   <form class="row g-3 needs-validation w-100 m-auto form-container-comments pb-5" novalidate>
 
     <div class="mb-3 mt-5">
@@ -264,6 +256,20 @@
       <span class="rating-text">Avalie sua experiência: </span>
 
     </div>
+
+
+      <!-- Seção de Comentários -->
+      <div class="container-exibicao mt-5">
+        <div class="row justify-content-left">
+          <div class="col-md-8">
+            <h4 class="negrito1">Comentários</h4>
+            <div id="commentSection">
+              <!-- Aqui serão exibidos os comentários -->
+            </div>
+          </div>
+        </div>
+      </div>
+
     <!--div responsavel pelo modal comments-->
     <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-success">
@@ -282,44 +288,45 @@
       </div>
     </div>
   </form>
-<script>
-// Seleciona o formulário de comentários
-const form = document.querySelector('.form-container-comments');
+</main>
+  <script>
+    // Seleciona o formulário de comentários
+    const form = document.querySelector('.form-container-comments');
 
-// Adiciona um listener para o evento de envio do formulário
-form.addEventListener('submit', function(event) {
-  // Previne o comportamento padrão do envio do formulário
-  event.preventDefault();
+    // Adiciona um listener para o evento de envio do formulário
+    form.addEventListener('submit', function (event) {
+      // Previne o comportamento padrão do envio do formulário
+      event.preventDefault();
 
-  // Verifica se todos os campos obrigatórios estão preenchidos
-  if (form.checkValidity()) {
-    // Exibe o modal de sucesso apenas se os campos estiverem preenchidos
-    const successModal = new bootstrap.Modal(document.getElementById('successModal'));
-    successModal.show();
+      // Verifica se todos os campos obrigatórios estão preenchidos
+      if (form.checkValidity()) {
+        // Exibe o modal de sucesso apenas se os campos estiverem preenchidos
+        const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+        successModal.show();
 
-    // Adiciona o comentário na seção de comentários
-    adicionarComentario();
-  } else {
-    // Se os campos não estiverem preenchidos, mostra as mensagens de erro
-    form.classList.add('was-validated');
-  }
-});
+        // Adiciona o comentário na seção de comentários
+        adicionarComentario();
+      } else {
+        // Se os campos não estiverem preenchidos, mostra as mensagens de erro
+        form.classList.add('was-validated');
+      }
+    });
 
-// Função para adicionar comentários
-function adicionarComentario() {
-  const nome = document.getElementById('nome').value;
-  const mensagem = document.getElementById('mensagem').value;
+    // Função para adicionar comentários
+    function adicionarComentario() {
+      const nome = document.getElementById('nome').value;
+      const mensagem = document.getElementById('mensagem').value;
 
-  const commentSection = document.getElementById('commentSection');
-  const novoComentario = document.createElement('div');
-  novoComentario.innerHTML = `<strong>${nome}</strong>: ${mensagem}`;
-  commentSection.appendChild(novoComentario);
+      const commentSection = document.getElementById('commentSection');
+      const novoComentario = document.createElement('div');
+      novoComentario.innerHTML = `<strong>${nome}</strong>: ${mensagem}`;
+      commentSection.appendChild(novoComentario);
 
-  // Limpa os campos após adicionar o comentário
-  document.getElementById('nome').value = '';
-  document.getElementById('mensagem').value = '';
-}
-</script>
+      // Limpa os campos após adicionar o comentário
+      document.getElementById('nome').value = '';
+      document.getElementById('mensagem').value = '';
+    }
+  </script>
 
   <footer class="footer">
     <div class="logo">
