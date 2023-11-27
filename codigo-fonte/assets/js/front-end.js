@@ -26,6 +26,9 @@ if (exampleModal) {
     let title = "";
     let content = "";
     let listItens = [];
+
+    let botaoSaibaMais = document.getElementById('linkSaibaMais')
+    let saibaMaisLink;
     
 
     switch (recipient) {
@@ -47,6 +50,7 @@ if (exampleModal) {
           "Adicionar IDs e classes",
           
         ];
+        saibaMaisLink = 'https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics'
         break;
       case "2":
         modalAtual =title = "CSS - Fundamentos";
@@ -67,6 +71,7 @@ if (exampleModal) {
           "Aprender Flexbox",
           "Aprender Grid",
         ];
+        saibaMaisLink = 'https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started'
         break;
       case "3":
         modalAtual = title = "JavaScript - Fundamentos";
@@ -85,6 +90,9 @@ if (exampleModal) {
           "Obter dados de uma API",
           "Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc",
         ];
+
+        saibaMaisLink = 'https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/A_first_splash'
+
         break;
       case "4":
         modalAtual = title = "DOM - Fundamentos";
@@ -97,6 +105,8 @@ if (exampleModal) {
           "Remover um elemento da árvore",
           "Esperar por um evento em certo elemento da página usando 'addEventListener()'",
         ];
+        saibaMaisLink = 'https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction'
+
         break;
       case "5":
         modalAtual = title = "Design Responsivo";
@@ -104,14 +114,18 @@ if (exampleModal) {
         listItens = [
           "Media queries",
           "Conhecer o conceito de Mobile first",
-        ];        
+        ];
+        saibaMaisLink = 'https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181'
+        
         break;
       case "6":
         modalAtual = title = "Acessibilidade Javascript";
         content = "Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e portais sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas.";
         listItens = [
           'Escrever código com acessibilidade em mente'
-        ] 
+        ]
+        
+        saibaMaisLink = 'https://medium.com/emanuelg-blog/escrevendo-javascript-com-acessibilidade-em-mente-3720e9779969'
 
         break;
       case "7":
@@ -125,7 +139,9 @@ if (exampleModal) {
           "Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como 'Async/Await', '.then()', 'Promise', etc",
           "Aprender em quais situações é necessário o uso de programação assíncrona",
           "Fazer chamadas em APIs com `fetch()`"
-          ] 
+          ]
+          saibaMaisLink = 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function'
+          
         break;
       case "8":
         modalAtual = title = "JavaScript - Modularização";
@@ -133,7 +149,9 @@ if (exampleModal) {
         listItens = [
           'Isolar partes do código em módulos',
           'Usar import e export',
-          ] 
+          ]
+          saibaMaisLink = 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Modules'
+          
         break;
       case "9":
         modalAtual = title = "JavaScript - Testes";
@@ -143,7 +161,9 @@ if (exampleModal) {
           'Usar testes de integração',
           "Usar testes de comportamento (behavior)",
           'Usar mocks',
-          ] 
+          ]
+          saibaMaisLink = 'https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0'
+          
         break;
       case "10":
         modalAtual = title = "JavaScript - Manipulação de Erros";
@@ -155,26 +175,38 @@ if (exampleModal) {
           "Usar 'try' e 'catch' para tratamento de erros",
           "Em que ocasiões e de que forma utilizar o `throw`",
           'Criar exceções específicas de acordo com a necessidade de sua aplicação',
-          ] 
+          ]
+          saibaMaisLink = 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error'
+          
         break;
       case "11":
         modalAtual = title = "JavaScript - ES6";
         content = "Conhecer as diferenças dessa versão do JavaScript";
+        
+        saibaMaisLink = 'https://medium.com/@matheusml/o-guia-do-es6-tudo-que-voc%C3%AA-precisa-saber-8c287876325f'
+
         break;
       case "12":
         modalAtual = title = "Versionamento Semântico Front-end";
         content = "SemVer (Versionamento Semântico) é um conjunto simples de regras e requisitos que ditam como os números de versão são atribuídos e incrementados.";
         listItens = [
           'Organizar as dependências de um projeto',
-          ] 
+          ]
+          saibaMaisLink = 'https://dev.to/wnqueiroz/criando-e-automatizando-o-versionamento-semantico-de-projetos-nodejs-3ogj' 
         break;
       case "13":
         modalAtual = title = "Jest";
         content = "Testar componentes";
+
+        saibaMaisLink = 'https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0'
+
         break;
       case "14":
         modalAtual = title = "Cypress";
         content = "Criar e executar testes";
+
+        saibaMaisLink = 'https://docs.cypress.io/guides/getting-started/installing-cypress'
+
         break;
       case "15":
         modalAtual = title = "Conceitos de Orientação a Objetos";
@@ -190,7 +222,10 @@ if (exampleModal) {
           'O que é polimorfismo',
           'Como funcionam interfaces',
           'O que são abstrações',
-          ] 
+          ]
+          
+          saibaMaisLink = 'https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce'
+          
         break;
       case "16":
         modalAtual = title = "JavaScript - Armazenamento";
@@ -198,7 +233,10 @@ if (exampleModal) {
         listItens = [
           'Manipular dados armazenados',
           'Persistir dados armazenados',
-          ] 
+          ]
+          
+          saibaMaisLink = 'https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage'
+
         break;
       case "17":
         modalAtual = title = "Estruturas de Dados";
@@ -206,7 +244,10 @@ if (exampleModal) {
         listItens = [
           'Conhecer as principais estruturas de dados',
           'Implementar as principais estruturas de dados',
-          ] 
+          ]
+          
+          saibaMaisLink = 'https://medium.com/@kraudioKode/estrutura-de-dados-6afb386a6fc1'
+
         break;
       case "18":
         modalAtual = title = "GraphQL";
@@ -215,7 +256,10 @@ if (exampleModal) {
           'Aprender o que é GraphQL e por que foi criado',
           'Entender como o GraphQL é utilizado no desenvolvimento de APIs',
           'Criar APIs utilizando as bibliotecas e frameworks para GraphQL',
-          ] 
+          ]
+          
+          saibaMaisLink = 'https://medium.com/@emerson_pereira/introdu%C3%A7%C3%A3o-a-graphql-cbd1697784bf'
+
         break;
 
     }
@@ -249,6 +293,7 @@ if (exampleModal) {
     modalBodyInput.textContent = content;
 
     document.getElementById("contentList").appendChild(ul);
+    botaoSaibaMais.innerHTML = ` <a href="${saibaMaisLink}" target="__blank">Saiba mais</a>`
   });
 }
 
