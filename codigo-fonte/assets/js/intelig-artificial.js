@@ -199,13 +199,13 @@ if (exampleModal) {
         modalAtual = title = "XGBoost";
         content = "XGBoost é uma biblioteca de aprendizado de máquina baseada em gradient boosting que se destaca na resolução de problemas de classificação e regressão. 'XG' em XGBoost refere-se a 'Extreme Gradient', indicando o uso de gradient boosting para melhorar a precisão do modelo.";
         listItens = [] 
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://sigmoidal.ai/xgboost-aprenda-algoritmo-de-machine-learning-em-python/'
         break;
       case "18":
         modalAtual = title = "Viés Cognitivo e IA Responsável";
         content = "O conceito de Viés Cognitivo refere-se aos padrões sistemáticos de desvio e distorção na forma como os seres humanos percebem, interpretam e tomam decisões. Esses vieses cognitivos podem levar a distorções na análise de informações, julgamentos e comportamentos de todos os tipos, como de raça, gênero, idade, capacidades físicas, entre outros, influenciando nossas percepções e ações de maneira não racional ou imparcial.";
         listItens = [] 
-        saibaMaisLink = ''
+        saibaMaisLink = 'https://institutoconectomus.com.br/o-que-e-vies-cognitivo/'
         break;
 
     }
