@@ -78,7 +78,7 @@ if (exampleModal) {
           "Como funcionam interfaces",
           "O que são abstrações",
         ];
-        saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/collections'
+        saibaMaisLink = 'https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce'
         break;
       case "4":
         modalAtual = title = "C# - Coleções";
@@ -88,7 +88,7 @@ if (exampleModal) {
           "Saiba trabalhar com ArrayList e HashTable",
           "Iterators",
         ];
-        saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/standard/automatic-memory-management'
+        saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/collections'
         break;
       case "5":
         modalAtual = title = "C# - Gerenciamento de Memória";
@@ -98,7 +98,7 @@ if (exampleModal) {
           "Conhecer o Garbage Collector",
           "Entender sobre o Stack e o Heap gerenciado",
         ];   
-        saibaMaisLink = 'https://learn.microsoft.com/pt-br/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022'     
+        saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/standard/automatic-memory-management'     
         break;
       case "6":
         modalAtual = title = "C# - Testes";
@@ -119,7 +119,7 @@ if (exampleModal) {
           "Passar um objeto como uma cadeia de caracteres JSON ou XML",
           "Passar informações específicas do usuário ou de segurança entre aplicativos"
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/standard/serialization/'
         break;
       case "8":
         modalAtual = title = "C# - Rede e Sockets";
@@ -128,7 +128,7 @@ if (exampleModal) {
           'Abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor',
           'Enviar mensagens para um servidor e receber respostas sem consultar o servidor',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/fundamentals/networking/sockets/sockets-overview'
         break;
       case "9":
         modalAtual = title = "CLR";
@@ -138,7 +138,7 @@ if (exampleModal) {
           'Entender o gerenciamento de memória',
           'Conhecer a CIL e o JIT',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/standard/clr'
         break;
       case "10":
         modalAtual = title = "ASP.NET Core";
@@ -149,7 +149,7 @@ if (exampleModal) {
           'Desenvolver de interface do usuário da Web do lado do cliente',
           'Criar uma API Web',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://learn.microsoft.com/pt-br/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0'
         break;
       case "11":
         modalAtual = title = "LINQ";
@@ -160,7 +160,7 @@ if (exampleModal) {
           'Consultar coleções de objetos em memória',
           'Mapear o banco de dados com Linq to Sql',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/csharp/linq/'
         break;
       case "12":
         modalAtual = title = "Dapper";
@@ -169,7 +169,7 @@ if (exampleModal) {
           "Realizar consultas a bancos de dados como 'select', 'insert', 'update', 'delete'",
           'Manipular bancos de dados',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://medium.com/jundevelopers/descomplicando-o-dapper-com-net-core-11118941e255'
         break;
       case "13":
         modalAtual = title = "C# - Delegates e Eventos";
@@ -181,7 +181,7 @@ if (exampleModal) {
           "Entender o conceito de evento",
           "Manipular diferentes tipos de eventos",
           ]
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/csharp/distinguish-delegates-events'
         break;
       case "14":
         modalAtual = title = "C# - Métodos anônimos e lambda expressions";
@@ -191,7 +191,7 @@ if (exampleModal) {
           'Criar funções anônimas que você pode usar para criar delegates',
           'Criar funções locais que podem ser passadas como argumentos',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/lambda-expressions'
         break;
       case "15":
         modalAtual = title = "Contêineres";
@@ -205,7 +205,7 @@ if (exampleModal) {
           "Conhecer a plataforma Docker",
           'Conhecer Kubernetes',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://www.ibm.com/br-pt/topics/containers'
         break;
       case "16":
         modalAtual = title = "Arquitetura de Microsserviços";
@@ -215,7 +215,7 @@ if (exampleModal) {
           'Realizar a comunicação usando APIs',
           'Melhorar a escalabilidade de um sistema',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://cloud.google.com/learn/what-is-microservices-architecture?hl=pt-br'
         break;
       case "17":
         modalAtual = title = "Injeção de Dependências";
@@ -224,7 +224,7 @@ if (exampleModal) {
           'Evitar o alto nível de acoplamento de código dentro de uma aplicação',
           'Implementar a inversão de controle',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://medium.com/@eduardolanfredi/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-ff0372a1672'
         break;
       case "18":
         modalAtual = title = "C# - Multithreading";
@@ -234,7 +234,7 @@ if (exampleModal) {
           'Entender como threads são executadas',
           'Aprender como fazer uma thread esperar em um ponto específico',
           ] 
-          saibaMaisLink = ''
+          saibaMaisLink = 'https://learn.microsoft.com/pt-br/dotnet/standard/threading/using-threads-and-threading'
         break;
 
     }
