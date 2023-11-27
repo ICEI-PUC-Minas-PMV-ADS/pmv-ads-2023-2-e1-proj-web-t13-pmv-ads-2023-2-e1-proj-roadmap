@@ -26,6 +26,9 @@ if (exampleModal) {
     let title = "";
     let content = "";
     let listItens = [];
+
+    let botaoSaibaMais = document.getElementById('linkSaibaMais')
+    let saibaMaisLink;
     
     switch (recipient) {
       case "1":
@@ -40,6 +43,7 @@ if (exampleModal) {
           "Gerenciar pacotes",
           "Realizar comunicação remota com o SSH e SCP",
         ];
+        saibaMaisLink = ''
         break;
       case "2":
         modalAtual = title = "Shell Scripting";
@@ -49,6 +53,7 @@ if (exampleModal) {
           "Automatizar a configuração e instalação de aplicações em novos sistemas",
           "Usar o PowerShell",
         ]
+        saibaMaisLink = ''
         break;
       case "3":
         modalAtual = title = "Redes de Computadores - Fundamentos";
@@ -60,6 +65,7 @@ if (exampleModal) {
           "Saber as diferenças entre as camadas de rede",
           "Saber o que é servidor web, proxy reverso e load balancer",
         ];
+        saibaMaisLink = ''
         break;
       case "4":
         modalAtual = title = "Linha de comando - Fundamentos";
@@ -67,6 +73,7 @@ if (exampleModal) {
         listItens = [
           "Conhecer os principais comandos",
         ];
+        saibaMaisLink = ''
         break;
       case "5":
         modalAtual = title = "HTTP - Fundamentos";
@@ -233,6 +240,7 @@ if (exampleModal) {
     modalBodyInput.textContent = content;
 
     document.getElementById("contentList").appendChild(ul);
+    botaoSaibaMais.innerHTML = ` <a href="${saibaMaisLink}" target="__blank">Saiba mais</a>`
   });
 }
 
