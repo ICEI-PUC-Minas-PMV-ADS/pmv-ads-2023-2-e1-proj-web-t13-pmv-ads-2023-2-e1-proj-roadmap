@@ -4,20 +4,30 @@ Pré-requisitos [Plano de Testes de Software](https://github.com/ICEI-PUC-Minas-
 
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
-<ol>
+<ul>
 
- <li></li>
+  <li>CT-01:Verificar o funcionamento do formulario na pagina Contato em caso de erro. 
+    <p>Responsável: Leonardo.</p>
+    <p>Verificar se os campos serao sinalizados com erro caso enviados vazio.</p>
+    <img src="./img/ct-01.png"/>
+  </li>
+
 
 <hr>
 
- <li></li>
+  <li>CT-02: Verificar o funcionamento do formulario na pagina Contato em caso de sucesso
+    <p>Responsável: Leonardo.</p>
+    <p>Verificar se os campos da serao sinalizados com sucesso caso enviados corretamente</p>
+    <img src="./img/ct-02.png"/>
+  </li>
 
 <hr>
 
  <li>CT-03 | A aplicação deve exibir uma lista de tecnologias para o usuário escolher sobre qual ele quer visualizar o roadmap.
  Responsável: Brendo
 
- ![](<ct03.png>)
+![](ct03.png)
+
  </li>
 
 <hr>
@@ -26,6 +36,31 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
  Responsável: Brendo
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-roadmap/assets/102166206/118b77a4-5c93-45d5-be25-5306805fb4a3
+
+</li>
+
+<hr>
+
+<li>CT-07 Cadastro de Usuários
+  <p>Responsável: Leonardo.</p>
+  <p>Verificar se a funcionalidade de cadastro de usuários está operacional.</p>
+  <img src="./img/ct-07-a.png"/>
+  <p>Usuário salvo no localstorage</p>
+  <img src="./img/ct-07-b.png"/>
+</li>
+
+<hr>
+
+<li>CT-08 Funcionalidade de Login
+  <p>Responsável: Leonardo.</p>
+  <p>Verificar se o login de usuário está funcionando corretamente.</p>
+  <img src="./img/ct-08-a.png"/>
+  <p>Header atualizado depois de efetuado o login</p>
+  <img src="./img/ct-08-b.png"/>
+  <p>Caso a senha esteja incorreta</p>
+  <img src="./img/ct-08-c.png"/>
+  <p>Caso o usuário não exista</p>
+  <img src="./img/ct-08-d.png"/>
 </li>
 
  <hr>
@@ -44,16 +79,11 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads
   <li> CT-14, CT-15 | Verificar se é possível realizar comentários nos roadmaps, Verificar se a funcionalidade de avaliação dos roadmaps está funcionando corretamente.
   Responsável: Brendo.
 
-  ![](<teste-barra-comentarios.png>)
+![](teste-barra-comentarios.png)
 
-  ![](<teste-barra-comentarios2.png>)
+![](teste-barra-comentarios2.png)
+
   </li>
 <hr>
 
-
-
-
-
-
-
-</ol>
+</ul>
