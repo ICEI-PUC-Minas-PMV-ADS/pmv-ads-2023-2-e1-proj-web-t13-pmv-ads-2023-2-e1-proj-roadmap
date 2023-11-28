@@ -26,6 +26,9 @@ if (exampleModal) {
     let title = "";
     let content = "";
     let listItens = [];
+
+    let botaoSaibaMais = document.getElementById('linkSaibaMais')
+    let saibaMaisLink;
     
 
         
@@ -39,6 +42,8 @@ if (exampleModal) {
           "Entender como funciona o dinamismo no Dart",
           "Compreender e aprender a usar o Null Safety no Dart",
         ];
+        saibaMaisLink = 'https://www.youtube.com/watch?v=NZNO6xW5icQ'
+
         break;
       case "2":
         modalAtual =title = "Flutter - Fundamentos";
@@ -50,7 +55,10 @@ if (exampleModal) {
           "Entender as diferenças entre widgets Stateless e Stateful",
           "Desenvolver a primeira aplicação em Flutter",
         ]
+        saibaMaisLink = 'https://www.youtube.com/watch?v=J4BVaXkwmM8'
+
         break;
+        
       case "3":
         modalAtual = title = "Conceitos de Orientação a Objetos";
         content = "A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.";
@@ -65,6 +73,9 @@ if (exampleModal) {
           "Como funcionam interfaces",
           "O que são abstrações",
         ];
+
+        saibaMaisLink = 'https://www.youtube.com/watch?v=QJjY2TNyl-8'
+
         break;
       case "4":
         modalAtual = title = "Dart - Erros e Exceções";
@@ -74,6 +85,9 @@ if (exampleModal) {
           "Entender o que são erros e exceções no Dart",
           "Conhecer e saber usar a estrutura `try-on-catch-finally`",
         ];
+
+        saibaMaisLink = 'https://www.youtube.com/watch?v=O4A3hHvBQ5E'
+
         break;
       case "5":
         modalAtual = title = "Dart - Comunicação com APIs";
@@ -83,7 +97,10 @@ if (exampleModal) {
           "Conhecer os comandos básicos de comunicação HTTP",
           "Saber usar as ferramentas do pacote `http` do Dart",
           "Saber fazer requisições autenticadas para Web APIs",
-        ];        
+        ];
+        
+        saibaMaisLink = 'https://www.youtube.com/watch?v=vjeK_oc5cXQ'
+
         break;
       case "6":
         modalAtual = title = "Flutter - Persistência de Dados";
@@ -94,6 +111,8 @@ if (exampleModal) {
           'Aprender como persistir dados com Leitura e Escrita de arquivos',
         ] 
 
+        saibaMaisLink = 'https://www.youtube.com/watch?v=xOODmm-NdUc'
+
         break;
       case "7":
         modalAtual = title = "Flutter - Pacotes Essenciais";
@@ -101,7 +120,10 @@ if (exampleModal) {
         listItens = [
           "Conhecer e saber utilizar a plataforma pub.dev",
           "Conhecer os principais pacotes do Flutter",
-        ] 
+        ]
+        
+        saibaMaisLink = 'https://www.youtube.com/watch?v=Fc8D_6TtiKw'
+
         break;
       case "8":
         modalAtual = title = "Flutter - Gerenciamento de Estados";
@@ -110,7 +132,10 @@ if (exampleModal) {
           "Entender o que é Gerenciamento de Estados",
           "Conhecer e saber usar o Provider",
           "Conhecer as demais opções de Gerenciamentos de Estados no Flutter",
-        ] 
+        ]
+        
+        saibaMaisLink = 'https://www.youtube.com/watch?v=VhsqMahAmOk'
+
         break;
       case "9":
         modalAtual = title = "Flutter - Testes";
@@ -119,7 +144,10 @@ if (exampleModal) {
           "Conhecer Testes Unitários no Flutter",
           "Conhecer Testes de Widgets no Flutter",
           "Conhecer Testes de Integração no Flutter",
-        ] 
+        ]
+        
+        saibaMaisLink = 'https://www.youtube.com/watch?v=zlYQe-9QMug'
+
         break;
       case "10":
         modalAtual = title = "Flutter - Depuração";
@@ -128,7 +156,10 @@ if (exampleModal) {
           "Conhecer as técnicas e ferramentas de depuração no Flutter",
           "Saber depurar códigos Dart e Flutter",
           "Conhecer o Dart DevTools",
-        ] 
+        ]
+        
+        saibaMaisLink = 'https://www.youtube.com/watch?v=cUMsu0Kxo7k'
+
         break;
       case "11":
         modalAtual = title = "Flutter - Jogos";
@@ -137,12 +168,18 @@ if (exampleModal) {
           'Conhecer o Kit de Desenvolvimento de Jogos Casuais do Flutter',
           'Conhecer o pacote Flame como Engine de Jogos Flutter',
           'Conhecer o pacote Bonfire como Engine de Jogos para Flutter',
-          ] 
+          ]
+          
+          saibaMaisLink = 'https://www.youtube.com/watch?v=zGgeBNiRy-8'
+
         break;
       case "12":
         modalAtual = title = "Flutter - Multiplataforma Web";
         content = "Conhecer as especificidades da criação de apps Flutter para Web";
-        listItens = [] 
+        listItens = []
+        
+        saibaMaisLink = 'https://docs.flutter.dev/platform-integration/web/faq'
+
         break;
       case "13":
         modalAtual = title = "Flutter - Nativo";
@@ -150,6 +187,9 @@ if (exampleModal) {
         listItens = [
           "Conhecer as especificidades do desenvolvimento nativo para iOS",
           ]
+
+          saibaMaisLink = 'https://www.youtube.com/watch?v=ZBJa-xjZl3w&ab_channel=Flutter'
+
         break;
       case "14":
         modalAtual = title = "Estruturas de Dados";
@@ -157,7 +197,10 @@ if (exampleModal) {
         listItens = [
           'Conhecer as principais estruturas de dados',
           "Implementar as principais estruturas de dados",
-          ] 
+          ]
+          
+          saibaMaisLink = 'https://www.youtube.com/watch?v=MweeZn1rR8s'
+          
         break;
       case "15":
         modalAtual = title = "Flutter - Animações";
@@ -166,17 +209,26 @@ if (exampleModal) {
           "Conhecer e saber usar os Widgets para Animações Implícitas",
           "Entender os conceitos de Duração (Duration) e Curvas (Curves)",
           "Conhecer a técnica de Animações Explicitas no Flutter",
-        ] 
+        ]
+        
+        saibaMaisLink = 'https://www.youtube.com/watch?v=IVTjpW3W33s&feature=youtu.be'
+
         break;
       case "16":
         modalAtual = title = "Flutter - Multiplataforma Desktop";
         content = "Conhecer e saber usar as opções de criação em multiplataforma do Flutter";
-        listItens = [] 
+        listItens = []
+        
+        saibaMaisLink = 'https://flutter.dev/multi-platform/desktop'
+
         break;
       case "17":
         modalAtual = title = "Flutter - Multiplataforma Web";
         content = "Conhecer as especificidades da criação de apps Flutter para Web";
-        listItens = [] 
+        listItens = []
+        
+        saibaMaisLink = 'https://docs.flutter.dev/platform-integration/web/faq'
+
         break;
       case "18":
         modalAtual = title = "Flutter - Implantação (Deployment)";
@@ -186,7 +238,10 @@ if (exampleModal) {
           "Conhecer e saber implantar aplicativos Flutter em várias plataformas",
           "Entendendo Flavors em Flutter",
           "Conhecer Entrega Contínua em Flutter",
-        ] 
+        ]
+        
+        saibaMaisLink = 'https://docs.flutter.dev/deployment/obfuscate'
+
         break;
 
     }
@@ -220,6 +275,7 @@ if (exampleModal) {
     modalBodyInput.textContent = content;
 
     document.getElementById("contentList").appendChild(ul);
+    botaoSaibaMais.innerHTML = ` <a href="${saibaMaisLink}" target="__blank">Saiba mais</a>`
   });
 }
 
