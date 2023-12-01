@@ -23,15 +23,18 @@ border-color: black;
 .fundo_verde {
   background-color: #66796B;
   font-weight: bold;
+  width: 100%;
 
 }
 .fundo_intermediario {
   background-color: #606B73;
   font-weight: bold;
+  width: 100%;
 }
 .fundo_avancado {
   background-color: #8F534D;
   font-weight: bold;
+  width: 100%;
 }
 
 
