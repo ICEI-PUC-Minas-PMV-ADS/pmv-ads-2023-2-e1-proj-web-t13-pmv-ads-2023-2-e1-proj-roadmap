@@ -47,12 +47,21 @@
             </div>
             <div class="col-md-8">
                 
-                <div class="search-container">
-                    <form action="resultados_pesquisa.php" method="GET">
-                        <input type="text" placeholder="Pesquisar..." name="q">
-                        <button type="submit">Buscar</button>
-                    </form>
-                </div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Buscar</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                      <a href="front-end.html">Front-end</a>
+                      <a href="back-end.html">Back-end</a>
+                      <a href="devops.html">DevOps</a>
+                      <a href="mobile.html">Mobile</a>
+                      <a href="intelig-artificial.html">Inteligencia Artificial</a>
+                      <a href="cybersec.html">Cyberseguranca</a>
+                      <a href="dados.html">Dados</a>
+                      <a href="cadastro.html">Cadastro</a>
+
+                    </div>
+                  </div>
 
                 <div class="header-container" class="col-md-8">
                     <p>Descubra os melhores caminhos para se tornar um desenvolvedor.</p>
