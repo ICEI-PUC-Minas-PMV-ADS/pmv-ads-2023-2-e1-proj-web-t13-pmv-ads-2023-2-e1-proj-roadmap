@@ -9,20 +9,31 @@
     <link rel="stylesheet" href="./assets/css/style_footer.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="home.html">
-                <img src="./assets/images/logo.png" alt="Logo" height="40px" width="145">
-            </a>
-        </div>
-        <nav>
-            <a href="sobre.html" class="btn btn-light custom-button">Sobre nós</a>
-            <a href="contato.html" class="btn btn-light custom-button">Contato</a>
-            <a href="suporte.html" class="btn btn-light custom-button">Suporte</a>
-        </nav>
-        <nav>
-            <a href="login.html" class="btn btn-light custom-button" style="text-decoration:none">LOGIN</a>
-        </nav>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-trasparent-body-tertiary">
+            <div class="container-fluid">
+                <a href="home.html">
+                    <img src="./assets/images/logo.png" alt="Logo" height="50px" width="185">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link estiloheader1" href="sobre.html">Sobre-nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link estiloheader1" href="contato.html">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link estiloheader1" href="suporte.html">Suporte</a>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-secondary btn-lg estilobotao" id="login-btn"><a class="estiloheader1" href="cadastro.html" id="loginUrl" Login>Registar-se / Login</a></button>
+                </div>
+            </div>
+          </nav>
     </header>
     <!-- Seu conteúdo vai aqui -->
     <div>
@@ -39,7 +50,7 @@
             <p>Robert Luiz de S. Magnani</p>
             <p>Brendo William Rodrigues</p>
             <p>Raphael Diego de Oliveira</p>
-            <p>Matheus L. Antunes Holanda</p>
+            
             <br>
             <br>
             <p>Professor Tutor: José Wilson da Costa</p>
