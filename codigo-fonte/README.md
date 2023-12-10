@@ -2,10 +2,27 @@
 
 ## Estratégia de Organização de Codificação 
 
-Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, sugerimos que o projeto seja estruturado de modo que cada aluno trabalhe com seus arquivos nas suas respectivas pastas, identificadas por nomes das suas respectivas telas. Por exemplo:
-- Pasta src (root do projeto): index.html, index.css, index.js - Desenvolvedora responsável: Aluna X.
-- Pasta src\clientes: clientes.html, clientes.css, clientes.js - Desenvolvedor responsável: Aluno Y.
-- Pasta src\funcionarios: funcionarios.html, funcionarios.css, funcionarios.js  - Desenvolvedora responsável: Aluna Z.
+O Desenvolvimento da Aplicação foi dividido por meio de Issues da aba Projects, fazendo a gestão de todas as etapas e páginas por meio das funcionalidades da aplicação. 
+
+![Alt text] (<projects.PNG>)
+Figura 1
+
+- Pasta src (root do projeto): home.html, style_home.css, index.js - Desenvolvedora responsável: Robert Luiz.
+
+- Pasta src\conteúdos:front-end.html, style_front-end.css, front-end.js - Desenvolvedora responsável: Thais Bertini.
+- Pasta src\conteúdos:back-end.html, style_front-end.css, backend.js - Desenvolvedora responsável: Thais Bertini.
+- Pasta src\conteúdos:cybersec.html, style_front-end.css, cybersec.js - Desenvolvedora responsável: Thais Bertini.
+- Pasta src\conteúdos:dados.html, style_front-end.css, dados.js - Desenvolvedora responsável: Thais Bertini.
+- Pasta src\conteúdos:devops.html, style_front-end.css, devops.js - Desenvolvedora responsável: Thais Bertini.
+- Pasta src\conteúdos:intelig-artificial.html, style_front-end.css, intelig-artificial.js - Desenvolvedora responsável: Thais Bertini.
+- Pasta src\conteúdos:mobile.html, style_front-end.css, mobile.js - Desenvolvedora responsável: Thais Bertini.
+
+- Pasta src\suporte: contato.html, contato.css, contato.js  - Desenvolvedor responsável: Leonardo M.
+- Pasta src\contato: contato.html, contato.css, contato.js  - Desenvolvedor responsável: Leonardo M.
+- Pasta src\cadastro/login: cadastro.html, cadastro_login.css, cadastro_login.js  - Desenvolvedor responsável: Leonardo M.
+
+- Pasta src\template: template.html, index.css, style_footer.css, index.js  - Desenvolvedores responsáveis: Brendo W. e Raphael Diego.
+- Pasta src\sobre: sobre.html, sobre.css, sobre.js  - Desenvolvedor responsável: Brendo W.
 
 ## Instalação do Site
 
@@ -14,5 +31,5 @@ O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um
 ## Histórico de versões
 
 ### [0.1.0] - DD/MM/AAAA
-#### Adicionado/Atualizado/Removido
+#### Aplicação adicionada 
 - Relação de artefatos ...
