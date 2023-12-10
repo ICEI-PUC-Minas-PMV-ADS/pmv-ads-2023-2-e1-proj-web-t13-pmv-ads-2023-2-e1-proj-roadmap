@@ -2,40 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #8B969D;
-
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 18px 20px;
     background-color: #606B73;
-    color: black;
-    font-weight: 600;
+    padding: 0.5rem;
+    width: 100%;
 }
 
-.form-container {
-    max-width: 400px;
-    padding: 1rem;
-}
-
-.h-100 {
-    height: 100%;
-}
-
-.card {
-    border: 1px solid black;
-    max-width: 500px;
-    margin-left: 750px;
-    margin-top: 50px;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 50px auto;
+.bg-color {
+    background-color: #f2f2f2;
 }
 
 /* incluso o css do sobre*/
@@ -55,12 +31,6 @@ header {
 .nav-link {
     color: white;
     font-size: larger;
-}
-
-.navbar {
-    width: 100%;
-    align-items: center;
-    justify-content: space-around text-align baseline;
 }
 
 .form-container-comments {
@@ -110,10 +80,13 @@ header {
 }
 
 .modal-success .modal-content {
-    background-color: #4CAF50; /* Cor verde desejada */
-    color: white; /* Texto em branco para contrastar */
-    border-radius: 10px; /* Borda arredondada para estilizar */
-  }
+    background-color: #4CAF50;
+    /* Cor verde desejada */
+    color: white;
+    /* Texto em branco para contrastar */
+    border-radius: 10px;
+    /* Borda arredondada para estilizar */
+}
 
 .dropdown-menu.login {
     background-color: #6c757d;
@@ -123,7 +96,7 @@ header {
     color: #ffffff;
 }
 
-.dropdown-menu.login > li > a:hover {
+.dropdown-menu.login>li>a:hover {
     background-color: #6c757d;
     background-color: #4CAF50;
     /* Cor verde desejada */
@@ -139,4 +112,108 @@ header {
 
 .maincomments {
     margin: 90px;
+}
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+
+#searchContent {
+    background-color: #6c757d;
+    color: #ffffff;
+
+}
+
+#searchContent::placeholder {
+    color: #ffffff;
+
+}
+
+/**
+* Footer
+*/
+footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+}
+
+.footer {
+    background-color: #606b73;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    border-top: 56px solid #8b969d;
+    border-bottom: 48px solid #8b969d;
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que os elementos se movam para a próxima linha quando não há espaço suficiente */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .logo,
+.footer .icons,
+.footer .title,
+.footer .description,
+.footer .terms {
+    display: inline-block;
+    margin-bottom: 10px;
+    /* Adicionado espaçamento entre os elementos */
+}
+
+.footer .icons {
+    margin-right: 9%;
+}
+
+.footer .title,
+.footer .description,
+.footer .terms {
+    margin-left: 1%;
+}
+
+/**
+* Footer
+*/
+
+.bg-color-cinza {
+    background-color: #f2f2f2;
+}
+
+.bg-color-cinza-escuro {
+    background-color: #8b969d;
 }
