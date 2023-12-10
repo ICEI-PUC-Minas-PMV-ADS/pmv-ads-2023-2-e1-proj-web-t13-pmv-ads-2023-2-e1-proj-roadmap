@@ -4,8 +4,12 @@
 
 O Desenvolvimento da Aplicação foi dividido por meio de Issues da aba Projects, fazendo a gestão de todas as etapas e páginas por meio das funcionalidades da aplicação. 
 
-![Alt text] (<projects.PNG>)
+![Alt text] (<projects.png>)
 Figura 1
+
+Com isso, as páginas foram direcionadas para os desenvolvedores responsáveis, porém, nos reuníamos todas as segundas-feiras para que juntos realizassemos reuniões semanais onde gerenciavamos todas as pendências e dar suporte em relação as dificuldades de cada um do grupo.
+
+ Portanto, o grupo teve interações constantes no desenvolvimento de todas as páginas. 
 
 - Pasta src (root do projeto): home.html, style_home.css, index.js - Desenvolvedora responsável: Robert Luiz.
 
@@ -26,10 +30,14 @@ Figura 1
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um servidor web de sua preferência. Existem diversos servidores web gratuitos que podem ser utilizados, tal como GitHub Pages (GitHub.IO), Vercel, Render, Netlify, Surge.sh, entre outros. Nesse primeiro eixo, recomenda-se inclusive a utilização do GitHub Pages. [Insira o endereço eletrônico público para acessá-lo.] 
+O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um servidor web de sua preferência. Existem diversos servidores web gratuitos que podem ser utilizados, tal como GitHub Pages (GitHub.IO), Vercel, Render, Netlify, Surge.sh, entre outros. 
+
+Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t13-pmv-ads-2023-2-e1-proj-roadmap/src/home.html/">aqui</a> para acessá-lo. 
+
+
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
-#### Aplicação adicionada 
-- Relação de artefatos ...
+### [0.1.0] - 10/12/2023
+#### Adicionado
+- Homepage: arquivos HTML, CSS, JS e imagens.
