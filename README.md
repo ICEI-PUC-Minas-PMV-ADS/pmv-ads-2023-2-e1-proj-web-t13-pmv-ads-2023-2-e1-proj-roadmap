@@ -15,7 +15,6 @@ interessados.
 * Thais Bertini do Amaral
 * Robert Luiz de S. Magnani
 * Brendo William Rodrigues
-* Matheus L. Antunes Holanda
 * Raphael Diego de Oliveira L.
 
 ## Orientador
