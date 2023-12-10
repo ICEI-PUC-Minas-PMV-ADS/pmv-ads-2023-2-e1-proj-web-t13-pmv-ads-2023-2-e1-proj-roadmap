@@ -20,6 +20,8 @@ span {
     background-color: #000000;
     height: 4rem;
     font-weight: bold;
+    outline: none;
+    border: none;
 }
 
 .input-text {
@@ -41,3 +43,4 @@ span {
     font-weight: bold;
     background-color: #FFFFFF;
 }
+
