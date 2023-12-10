@@ -31,6 +31,11 @@
   /* Remover a borda azul */
 }
 
+.btn-dark:hover {
+    background-color: #6c757d;
+    color: white; /* Mude a cor do texto se desejar */
+  }
+
 
 .search-container {
   text-align: center;
